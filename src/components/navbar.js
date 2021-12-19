@@ -1,4 +1,4 @@
-import { Button, NavDropdown, Container, Nav, Navbar } from "react-bootstrap";
+import { NavDropdown, Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 export default function MyNavbar({ selected }) {
   return (
@@ -6,7 +6,7 @@ export default function MyNavbar({ selected }) {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container fluid>
           <Navbar.Brand as={Link} to="/">
-            <img width={50} height={50} src="/images/logo_white.png" />
+            <img width={50} height={50} src="/images/logo_white.png" alt="EMCC Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
