@@ -13,7 +13,7 @@ export default function Footer() {
       }}
     >
       <p>
-        EMC²
+        <strong>EMC²</strong>
         <br />{" "}
         <i>
           Engineers’ Music and Cultural Club

@@ -8,6 +8,10 @@ import Faculty from "./components/faculty";
 import Footer from "./components/footer";
 import Contact from "./components/contact";
 import Committee from "./components/committee";
+import Specialmentions from "./components/special";
+import Featured from "./components/featured";
+import Events from "./components/events";
+import Gallery from "./components/gallery";
 
 function App() {
   return (
@@ -19,6 +23,10 @@ function App() {
         <Route path="president" element={<President />} />
         <Route path="committee" element={<Committee />} />
         <Route path="faculty" element={<Faculty />} />
+        <Route path="events" element={<Events />} />
+        <Route path="special" element={<Specialmentions />} />
+        <Route path="featured" element={<Featured />} />
+        <Route path="gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </BrowserRouter>

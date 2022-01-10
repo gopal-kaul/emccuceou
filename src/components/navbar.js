@@ -1,25 +1,47 @@
 import { NavDropdown, Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 export default function MyNavbar({ selected }) {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" className="mynav" variant="dark">
         <Container fluid>
-          <Navbar.Brand as={Link} to="/">
-            <img width={50} height={50} src="/images/logo_white.png" alt="EMCC Logo" />
-          </Navbar.Brand>
+          <LinkContainer to={"/"}>
+            <Navbar.Brand>
+              <img
+                width={50}
+                height={50}
+                src="/images/logo_white.png"
+                alt="EMCC Logo"
+              />
+            </Navbar.Brand>
+          </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/committee">The Committee</Nav.Link>
+              <LinkContainer to={"/"}>
+                <Nav.Link>Home</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to={"/committee"}>
+                <Nav.Link>The Committee</Nav.Link>
+              </LinkContainer>
               <NavDropdown title="Members" id="collasible-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/special">Special Mentions</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/featured">Featured</NavDropdown.Item>
+                <LinkContainer to={"/special"}>
+                  <NavDropdown.Item>Special Mentions</NavDropdown.Item>
+                </LinkContainer>
+                <LinkContainer to={"/featured"}>
+                  <NavDropdown.Item>Featured</NavDropdown.Item>
+                </LinkContainer>
               </NavDropdown>
-              <Nav.Link as={Link} to="/events">Events</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
+              <LinkContainer to={"/events"}>
+                <Nav.Link>Events</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to={"/gallery"}>
+                <Nav.Link>Gallery</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to={"/contactus"}>
+                <Nav.Link>Contact Us</Nav.Link>
+              </LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Container>

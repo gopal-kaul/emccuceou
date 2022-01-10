@@ -55,6 +55,7 @@ export default function IndexPage() {
                   <Link to="/faculty">
                     {" "}
                     <Image
+                      className="img-shadow"
                       src="images/faculty.jpeg"
                       alt="Faculty"
                       width={200}
@@ -80,6 +81,7 @@ export default function IndexPage() {
                   <Link to="/president">
                     {" "}
                     <Image
+                      className="img-shadow"
                       src="images/president.jpeg"
                       alt="president"
                       width={200}
