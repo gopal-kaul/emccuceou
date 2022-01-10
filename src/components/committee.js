@@ -10,8 +10,8 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
                 src="images/president.jpeg"
+                className="img-shadow"
                 alt="president"
                 width={"70%"}
                 height={"70%"}
@@ -24,8 +24,8 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
                 src="images/niharika.jpg"
+                className="img-shadow"
                 alt="secretary"
                 width={"70%"}
                 height={"70%"}
@@ -39,8 +39,8 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
                 src="images/shiney.jpg"
+                className="img-shadow"
                 alt="vice president"
                 width={"70%"}
                 height={"70%"}
@@ -54,8 +54,8 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
                 src="images/supriya.jpg"
+                className="img-shadow"
                 alt="cultural head"
                 width={"70%"}
                 height={"70%"}
@@ -68,11 +68,8 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{
-                  border: "3px black solid",
-                  marginBottom: "2%",
-                }}
                 src="images/aniral.jpg"
+                className="img-shadow"
                 alt="band leader"
                 width={"70%"}
                 height={"70%"}
@@ -86,7 +83,6 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
                 src="images/manaswini.jpg"
                 alt="treasurer"
                 width={"70%"}
@@ -101,7 +97,7 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
+                className="img-shadow"
                 src="images/hasitha.jpg"
                 alt="immediate past president"
                 width={"70%"}
@@ -123,7 +119,7 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
+                className="img-shadow"
                 src="images/abdul.jpeg"
                 alt="promotions"
                 width={"70%"}
@@ -137,7 +133,7 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
+                className="img-shadow"
                 src="images/hussain.jpg"
                 alt="graphic designer"
                 width={"70%"}
@@ -152,7 +148,7 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
+                className="img-shadow"
                 src="images/kranthi.jpg"
                 alt="assistant band leader"
                 width={"70%"}
@@ -167,7 +163,7 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
+                className="img-shadow"
                 src="images/abhinava.jpg"
                 alt="joint treasurer"
                 width={"70%"}
@@ -181,11 +177,8 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{
-                  border: "3px black solid",
-                  marginBottom: "2%",
-                }}
                 src="images/keerthana.jpg"
+                className="img-shadow"
                 alt="joint cultural head"
                 width={"70%"}
                 height={"70%"}
@@ -199,7 +192,7 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
+                className="img-shadow"
                 src="images/lahari.jpg"
                 alt="content writer"
                 width={"70%"}
@@ -214,8 +207,8 @@ export default function Committee() {
           <Col>
             <div className="mycont">
               <Image
-                style={{ border: "3px black solid", marginBottom: "2%" }}
                 src="images/rohit.jpg"
+                className="img-shadow"
                 alt="joint secretary "
                 width={"70%"}
                 height={"70%"}
