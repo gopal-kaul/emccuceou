@@ -84,6 +84,7 @@ export default function Committee() {
             <div className="mycont">
               <Image
                 src="images/manaswini.jpg"
+                className="img-shadow"
                 alt="treasurer"
                 width={"70%"}
                 height={"70%"}
