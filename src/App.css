@@ -3,10 +3,6 @@
   text-align: center;
 }
 
-.text-center em {
-  font-size: 3em;
-}
-
 .center-image {
   display: flex;
   justify-content: justify;
