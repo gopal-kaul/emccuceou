@@ -16,12 +16,21 @@
   -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  margin-bottom: 4%;
 }
+
 .mycont {
   text-align: center;
   margin-top: 4%;
   margin-bottom: 4%;
 }
+.title{
+  margin: 0% !important;
+}
+.role{
+  margin: 0% !important;
+}
+
 .navbar,
 .navbar-default {
   background-color: rgb(41, 43, 44);

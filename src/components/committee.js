@@ -17,8 +17,8 @@ export default function Committee() {
                 height={"70%"}
                 roundedCircle
               />
-              <h3>Gopal Kaul</h3>
-              <h5>President</h5>
+              <h3 className='title'>Gopal Kaul</h3>
+              <h5 className='role'>President</h5>
             </div>
           </Col>
           <Col>
@@ -32,8 +32,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Musuku Niharika</h3>
-              <h5>Secretary</h5>
+              <h3 className='title'>Musuku Niharika</h3>
+              <h5 className='role'>Secretary</h5>
             </div>
           </Col>
           <Col>
@@ -47,8 +47,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Chinthamalla Shiney</h3>
-              <h5>Vice President</h5>
+              <h3 className='title'>Chinthamalla Shiney</h3>
+              <h5 className='role'>Vice President</h5>
             </div>
           </Col>
           <Col>
@@ -61,8 +61,8 @@ export default function Committee() {
                 height={"70%"}
                 roundedCircle
               />
-              <h3>Supriya Rathod</h3>
-              <h5>Cultural Head</h5>
+              <h3 className='title'>Supriya Rathod</h3>
+              <h5 className='role'>Cultural Head</h5>
             </div>
           </Col>
           <Col>
@@ -76,8 +76,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Aniral Rao</h3>
-              <h5>Band Leader</h5>
+              <h3 className='title'>Aniral Rao</h3>
+              <h5 className='role'>Band Leader</h5>
             </div>
           </Col>
           <Col>
@@ -91,8 +91,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Annimalla Manaswini</h3>
-              <h5>Treasurer</h5>
+              <h3 className='title'>Annimalla Manaswini</h3>
+              <h5 className='role'>Treasurer</h5>
             </div>
           </Col>
           <Col>
@@ -106,8 +106,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Krishna Hasitha</h3>
-              <h5>Immediate Past President</h5>
+              <h3 className='title'>Krishna Hasitha</h3>
+              <h5 className='role'>Immediate Past President</h5>
             </div>
           </Col>
         </Row>
@@ -127,8 +127,8 @@ export default function Committee() {
                 height={"70%"}
                 roundedCircle
               />
-              <h3>Abdul Ghani</h3>
-              <h5>Promotions</h5>
+              <h3 className='title'>Abdul Ghani</h3>
+              <h5 className='role'>Promotions</h5>
             </div>
           </Col>
           <Col>
@@ -142,8 +142,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Hussain Shaik</h3>
-              <h5>Graphic Designer</h5>
+              <h3 className='title'>Hussain Shaik</h3>
+              <h5 className='role'>Graphic Designer</h5>
             </div>
           </Col>
           <Col>
@@ -157,8 +157,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Kranthi Kiran </h3>
-              <h5>Assistant Band Leader</h5>
+              <h3 className='title'>Kranthi Kiran </h3>
+              <h5 className='role'>Assistant Band Leader</h5>
             </div>
           </Col>
           <Col>
@@ -171,8 +171,8 @@ export default function Committee() {
                 height={"70%"}
                 roundedCircle
               />
-              <h3>Abhinava Karthikeya</h3>
-              <h5>Joint Treasurer</h5>
+              <h3 className='title'>Abhinava Karthikeya</h3>
+              <h5 className='role'>Joint Treasurer</h5>
             </div>
           </Col>
           <Col>
@@ -186,8 +186,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Keerthana Reddy </h3>
-              <h5>Joint Cultural Head</h5>
+              <h3 className='title'>Keerthana Reddy </h3>
+              <h5 className='role'>Joint Cultural Head</h5>
             </div>
           </Col>
           <Col>
@@ -201,8 +201,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Battu Lahari </h3>
-              <h5>Content Writer</h5>
+              <h3 className='title'>Battu Lahari </h3>
+              <h5 className='role'>Content Writer</h5>
             </div>
           </Col>
           <Col>
@@ -216,8 +216,8 @@ export default function Committee() {
                 roundedCircle
                 fluid
               />
-              <h3>Rohit Nittala</h3>
-              <h5>Joint Secretary</h5>
+              <h3 className='title'>Rohit Nittala</h3>
+              <h5 className='role'>Joint Secretary</h5>
             </div>
           </Col>
         </Row>

@@ -1,4 +1,4 @@
-import { NavDropdown, Container, Nav, Navbar } from "react-bootstrap";
+import { NavDropdown, Container, Nav, Navbar, Image } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 export default function MyNavbar({ selected }) {
   return (
@@ -7,8 +7,8 @@ export default function MyNavbar({ selected }) {
         <Container fluid>
           <LinkContainer to={"/"}>
             <Navbar.Brand>
-              <img
-                width={50}
+              <Image
+                width={45}
                 height={50}
                 src="/images/logo_white.png"
                 alt="EMCC Logo"
@@ -39,7 +39,7 @@ export default function MyNavbar({ selected }) {
               <LinkContainer to={"/gallery"}>
                 <Nav.Link>Gallery</Nav.Link>
               </LinkContainer>
-              <LinkContainer to={"/contactus"}>
+              <LinkContainer to={"/contact"}>
                 <Nav.Link>Contact Us</Nav.Link>
               </LinkContainer>
             </Nav>

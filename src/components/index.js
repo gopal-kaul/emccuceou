@@ -1,4 +1,4 @@
-import { Carousel, Container, Image } from "react-bootstrap";
+import { Carousel, Container, Image, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function IndexPage() {
@@ -6,16 +6,16 @@ export default function IndexPage() {
     <>
       <Carousel fade>
         <Carousel.Item>
-          <img
+          <Image
             className="d-block w-100"
             src="/images/logo.jpeg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image
             className="d-block w-100"
-            src="/images/raaga.jpg"
+            src="/images/jam/3.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
@@ -47,60 +47,45 @@ export default function IndexPage() {
             cultural forum as well.
           </p>
         </div>
-        <div className="row" style={{ marginTop: "5%", marginBottom: "5%" }}>
-          <div className="col-lg-6 col-md-6">
-            <div className="row">
-              <div className="col-lg-6 col-md-6">
-                <div className="mx-auto">
-                  <Link to="/faculty">
-                    {" "}
-                    <Image
-                      className="img-shadow"
-                      src="images/faculty.jpeg"
-                      alt="Faculty"
-                      width={200}
-                      height={200}
-                      roundedCircle
-                      fluid
-                    />
-                  </Link>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-6">
-                <h3>Message from the Faculty Advisor</h3>
-                <p>
-                  <em>Dr. V. Uma Maheshwar</em>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 col-md-6">
-            <div className="row">
-              <div className="col-lg-6 col-md-6">
-                <div className="mx-auto">
-                  <Link to="/president">
-                    {" "}
-                    <Image
-                      className="img-shadow"
-                      src="images/president.jpeg"
-                      alt="president"
-                      width={200}
-                      height={200}
-                      roundedCircle
-                      fluid
-                    />
-                  </Link>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-6">
-                <h3>Message from the President</h3>
-                <p>
-                  <em>Gopal Kaul</em>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Row xs={1} md={1} lg={4}>
+          <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
+            <Link to="/faculty">
+              {" "}
+              <Image
+                className="img-shadow index-photo"
+                style={{ padding: "5px" }}
+                src="images/faculty.jpeg"
+                alt="Faculty"
+                width={200}
+                height={200}
+                roundedCircle
+                fluid
+              />
+            </Link>
+          </Col>
+          <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
+            <h3>Message from the Faculty Advisor</h3>
+            <em>Dr. V. Uma Maheshwar</em>
+          </Col>
+          <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
+            <Link to="/president">
+              {" "}
+              <Image
+                className="img-shadow index-photo"
+                src="images/president.jpeg"
+                alt="president"
+                width={200}
+                height={200}
+                roundedCircle
+                fluid
+              />
+            </Link>
+          </Col>
+          <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
+            <h3>Message from the President</h3>
+            <em>Gopal Kaul</em>
+          </Col>
+        </Row>
       </Container>
     </>
   );

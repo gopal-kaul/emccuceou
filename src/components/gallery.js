@@ -1,26 +1,26 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
+import { Carousel, Container, Image } from "react-bootstrap";
 
 export default function Gallery() {
   return (
-    <div>
+    <Container fluid>
       <h1>Gallery Page</h1>
       <Carousel fade>
         <Carousel.Item>
-          <img
+          <Image
             className="d-block w-100"
             src="/images/logo.jpeg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img
+          <Image
             className="d-block w-100"
-            src="/images/raaga.jpg"
+            src="/images/jam/3.jpg"
             alt="Second slide"
           />
         </Carousel.Item>
       </Carousel>
-    </div>
+    </Container>
   );
 }
