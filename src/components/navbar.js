@@ -29,15 +29,12 @@ export default function MyNavbar({ selected }) {
                 <LinkContainer to={"/special"}>
                   <NavDropdown.Item>Special Mentions</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to={"/featured"}>
-                  <NavDropdown.Item>Featured</NavDropdown.Item>
-                </LinkContainer>
               </NavDropdown>
+              <LinkContainer to={"/band"}>
+                <Nav.Link>The Band</Nav.Link>
+              </LinkContainer>
               <LinkContainer to={"/events"}>
                 <Nav.Link>Events</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to={"/gallery"}>
-                <Nav.Link>Gallery</Nav.Link>
               </LinkContainer>
               <LinkContainer to={"/contact"}>
                 <Nav.Link>Contact Us</Nav.Link>
