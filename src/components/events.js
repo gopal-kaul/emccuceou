@@ -1,9 +1,127 @@
-import React from 'react'
+import React from "react";
+import { Card, Container, Carousel, Image } from "react-bootstrap";
 
 export default function Events() {
-	return (
-		<div>
-		<h1>Events Page</h1>	
-		</div>
-	)
+  const openmic = [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpg",
+  ];
+  const raaga = [
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpg",
+  ];
+  const jam = ["1.jpg", "2.jpg", "3.jpg"];
+  return (
+    <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
+      <h1>Events Page</h1>
+      <hr />
+      <Card>
+        <Carousel fade>
+          {openmic.map((item, idx) => {
+            return (
+              <Carousel.Item>
+                <Image className="w-100" src={`images/openmic/${item}`} />
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+        <Card.Body>
+          <Card.Title style={{ fontSize: "25px" }}>Open Mic</Card.Title>
+          <Card.Text>
+            There are days when you just want to perform rather than compete.
+            You simply want everyone to listen to your music or admire your
+            dance or just read a poem in front of a live audience or just rap to
+            your favourite song and see what others do and just enjoy their
+            expression of art; that is exactly what Open Mic does! No
+            competition and No Judgement.
+            <br />
+            <br />
+            Open Mic is an event conducted by our EMC² in collaboration with
+            YOUVA (an NGO club). In Open mic students perform their interests
+            and the funds collected through this event goes to the charity!.
+            This year EMC² successfully hosted its third open mic in
+            collaboration with youva where almost 60 students performed! With a
+            live audience of 500 members.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card style={{ marginTop: "3%" }}>
+        <Carousel fade>
+          {raaga.map((item, idx) => {
+            return (
+              <Carousel.Item>
+                <Image className="w-100" src={`images/RAAGA/${item}`} />
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+        <Card.Body>
+          <Card.Title style={{ fontSize: "25px" }}>RAAGA</Card.Title>
+          <Card.Text>
+            It is a singing competition held by the club every year to promote
+            upcoming singers in the University.
+            <br /> Only members of the club can participate in this event. There
+            are two categories for the performers: Classical and Western.
+            <br /> The winner of RAAGA gets to be the lead singer of the band.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card style={{ marginTop: "3%" }}>
+        <Carousel fade>
+          {jam.map((item, idx) => {
+            return (
+              <Carousel.Item>
+                <Image idx className="w-100" src={`images/jam/${item}`} />
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+        <Card.Body>
+          <Card.Title style={{ fontSize: "25px" }}>Jam Session</Card.Title>
+          <Card.Text>
+            Who doesn't enjoy an evening full of music, jamming to songs,
+            meeting new people! Isn't it what a melophile craves for?Ever desire
+            to experience a personalized concert where you may sing along to
+            your favourite songs sung by professional singers? then jam sessions
+            are for you!
+            <br />
+            <br />
+            EMC² conducted its latest jam session on 25.11.2021. More than 100
+            voices sang together along with the singers and made this event as
+            Osmania University's very own concert!
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Container>
+  );
 }
