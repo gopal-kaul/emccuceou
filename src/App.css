@@ -20,10 +20,10 @@
   margin-top: 4%;
   margin-bottom: 4%;
 }
-.title{
+.title {
   margin: 0% !important;
 }
-.role{
+.role {
   margin: 0% !important;
 }
 
@@ -31,6 +31,9 @@
 .navbar-default {
   background-color: rgb(41, 43, 44);
 }
-/*.navbar-nav > a.active  {
-  color: green !important;
-}*/
+
+.card-centre {
+  margin: 2.5% 0;
+  display: flex;
+  align-items: center;
+}
