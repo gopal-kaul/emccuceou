@@ -7,6 +7,9 @@ export default function band() {
       <hr />
       <Carousel fade>
         <Carousel.Item>
+          <Image className="w-100" src={"images/openmic/12.jpg"} />
+        </Carousel.Item>
+        <Carousel.Item>
           <Image className="w-100" src={"images/band/1.jpg"} />
         </Carousel.Item>
         <Carousel.Item>
@@ -18,11 +21,18 @@ export default function band() {
         multiple occasions and in various institutions. <br />
         Some of their recent performances are:
         <ul>
-          <li> Amusant 2k19 </li>
+          <li>Amusant 2k19 </li>
           <li>Global Alumni Meet 2019</li>
           <li>Farewell of former vice chancellor </li>
           <li>National Institute of Fashion Technology </li>
           <li>Mahindra Ecole Centrale</li>
+        </ul>
+        The current members are:
+        <ul>
+          <li>Nathan Thadmalla</li>
+          <li>Gopal Kaul</li>
+          <li>Aniral Rao</li>
+          <li>Kranthi Kiran</li>
         </ul>
       </p>
     </Container>
