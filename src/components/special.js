@@ -5,8 +5,188 @@ export default function Specialmentions() {
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
       <h1>Special Mentions Page</h1>
       <hr />
+      <p style={{ fontSize: "1.25rem" }}>
+        These are some of the club's notable alumni who have carved a name for
+        themselves with their outstanding achievements.
+      </p>
       <div className="card-centre">
-        <Row>
+        <Row className="align-items-center">
+          <Col>
+            <Card style={{ margin: 5 }}>
+              <Image
+                variant="top"
+                src="images/special/prachotan.jpg"
+                width={200}
+                height={200}
+                style={{ marginTop: "2%", marginLeft: "2%" }}
+                roundedCircle
+                fluid
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "25px" }}>
+                  D L Prachotan
+                </Card.Title>
+                <Card.Text>
+                  D L Prachotan is a professional carnatic vocalist and a
+                  performing artist. At a mere age of 3, Prachotan started
+                  identifying carnatic music ragas and has entered the Limca
+                  Book of World Records in the year 2003 for identifying 144
+                  ragas.Initially he has learned carnatic music from his mother
+                  D Sirisha and currently is under the tutelage of Sri. D
+                  Raghavachary garu since the past 12 years. He’s been
+                  performing at various sabhas across the nation which includes
+                  reputed sabhas such as Sri Parthasaradhi Swamy sabha, Indian
+                  Fine Arts and Sri Shanmukhananda sabha. He has also sung in
+                  JAYA TV’s Bala Bruhmmam in the years 2010 and 2011.
+                  <br />
+                  He has received around 25 national and 50 state level awards
+                  including the coveted ones like Bala Ratna, Bala Surya and
+                  Samaikya Bhaarath Gaurav Sathkaar. Prachotan has been a CCRT
+                  scholar from the year 2010 and has been awarded the “Sri
+                  Shanmukhananda Bharat Ratna M S Subbulaxmi fellowship” by the
+                  esteemed Sri Shanmukhananda sabha in September 2017. Prachotan
+                  is a founding member of Engineers’ Music & Cultural Club and
+                  is serving as its Vice President.
+                  <br />
+                  Prachotan has represented India in the Global Entreprenuership
+                  Bootcamp held in Jakarta, Indonesia and has also been the
+                  Co-Organizer of the first edition of TEDxOsmaniaU.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col lg={2}>
+            <Image src="images/gifs/music3.gif" width={200} height={200} />
+          </Col>
+        </Row>
+      </div>
+      <div className="card-centre">
+        <Row className="align-items-center">
+          <Col lg={2}>
+            <Image src="images/gifs/music1.gif" width={200} height={200} />
+          </Col>
+          <Col>
+            <Card style={{ margin: 5 }}>
+              <Image
+                variant="top"
+                src="images/special/sarthak.jpg"
+                width={200}
+                height={200}
+                style={{ marginTop: "2%", marginLeft: "2%" }}
+                roundedCircle
+                fluid
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "25px" }}>
+                  A S Sarthak
+                </Card.Title>
+                <Card.Text>
+                  A S Sarthak has professionally learnt Tabla for 5 years and
+                  subsequently developed a good ear for it. His ardent passion
+                  towards music drove him to learn guitar and vocals on his own.
+                  He has performed on numerous occasions on Tabla and Guitar
+                  right from an early age.He has given many musical performances
+                  in the college’s cultural events. Right from the first year,
+                  Sarthak has been responsible for all cultural activities in
+                  various fests like Amusant and Infinity. He was the cultural
+                  head for Amusant 2018. Sarthak has been associated with many
+                  fests and has held multiple positions of responsibilities in
+                  events like Amusant, TEDxOsmaniaU and Under 25 Summit. He was
+                  chosen to be one of the licensee of Under 25 summit, being in
+                  the top 100 out of 6000 applicants who applied across the
+                  nation. Sarthak is a founding member of EMC2 and served as
+                  Treasurer in its first year and is currently serving as
+                  President. He’s been one of the root causes for the change in
+                  fortunes of the club. He has taken up new initiatives such as
+                  starting open mics and strengthening the club’s stand of being
+                  a cultural forum too. The club now has a confined space and a
+                  website as well. Sarthak attended the National Students
+                  Parliament organized by the Kerala Legislative Assembly and
+                  had the privilege of being one of the student speaker among
+                  100s of applicants.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+      <div className="card-centre">
+        <Row className="align-items-center">
+          <Col>
+            <Card style={{ margin: 5 }}>
+              <Image
+                variant="top"
+                src="images/special/sudhanshu.jpg"
+                width={200}
+                height={200}
+                style={{ marginTop: "2%", marginLeft: "2%" }}
+                roundedCircle
+                fluid
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "25px" }}>
+                  M V Sudhanshu
+                </Card.Title>
+                <Card.Text>
+                  M V Sudhanshu has been learning Carnatic music from 12 years.
+                  He can also play various instruments like Harmonium, Piano and
+                  Congo. He was awarded as the best outgoing student in singing
+                  from DAV Public School. He has given number of performances in
+                  Tyagaraya Ganasabha on various religious events and festivals.
+                  <br />A multi-talented musician, Sudhanshu is known as one of
+                  the best singers of the college and has won many singing
+                  competitions in and around the city. He is the 1st runner up
+                  of Voice of Hyderabad in the year 2019 and received the award
+                  from Indian Idol winner L V Revanth. Sudhanshu is the 1st
+                  runner up of the first and second edition of Raaga in the
+                  Indian category.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col lg={2}>
+            <Image src="images/gifs/music3.gif" width={200} height={200} />
+          </Col>
+        </Row>
+      </div>
+      <div className="card-centre">
+        <Row className="align-items-center">
+          <Col lg={2}>
+            <Image src="images/gifs/music1.gif" width={200} height={200} />
+          </Col>
+          <Col>
+            <Card style={{ margin: 5 }}>
+              <Image
+                variant="top"
+                src="images/special/vaishnavi.jpg"
+                width={200}
+                height={200}
+                style={{ marginTop: "2%", marginLeft: "2%" }}
+                roundedCircle
+                fluid
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "25px" }}>
+                  Vaishnavi Danam
+                </Card.Title>
+                <Card.Text>
+                  Vaishnavi Danam is a professional carnatic vocalist. She has
+                  been learning carnatic vocal since the age of 4. She holds a
+                  diploma in the same and has performed for a number of national
+                  and international conferences that have taken place in Osmania
+                  University including Seminar of Scientific Glass Blowers and
+                  62nd congress ISTAM. Besides being a singer, she is also a
+                  Kuchipudi Dancer and a Yoga practitioner. Vaishnavi has bagged
+                  the highest package of 23LPA in placements for the year
+                  2019-20 in Commvault.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+      <div className="card-centre">
+        <Row className="align-items-center">
           <Col>
             <Card style={{ margin: 5 }}>
               <Image
@@ -41,110 +221,7 @@ export default function Specialmentions() {
         </Row>
       </div>
       <div className="card-centre">
-        <Row>
-          <Col lg={2}>
-            <Image src="images/gifs/music4.gif" width={200} height={200} />
-          </Col>
-          <Col>
-            <Card style={{ margin: 5 }}>
-              <Image
-                variant="top"
-                src="images/special/surabhi.jpg"
-                width={200}
-                height={200}
-                style={{ marginTop: "2%", marginLeft: "2%" }}
-                roundedCircle
-                fluid
-              />
-              <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
-                  Surabhi Nadigotti
-                </Card.Title>
-                <Card.Text>
-                  I started learning carnatic music vocals when I was 7. Back
-                  then, I wasn't really into music. But with time, I slowly
-                  started developing my interest towards it. Although I had to
-                  change my classical carnatic trainers for thrice and had to
-                  stop taking the training, I would still love to continue
-                  pursuing it. As a child, I didn't really understand the beauty
-                  of classical music, but on exploring other genres too growing
-                  up, I realised how rich and authentic classical carnatic music
-                  is! Apart from Carnatic music, I'd love listening to Sufi
-                  songs and Contemporary movie songs. My favourite artists
-                  include Ayushmaan Khurrana, Shreya Ghoshal, A.R. Rehman, Sid
-                  Sreeram, Rahul Vellal, Chinmayi Sripada, and many more. Coming
-                  to the western music, I don't know many artists, as I didn't
-                  discover my interests particularly here in the western. But so
-                  far, my favourites are- Taylor Swift, Avicii, and Chester
-                  Bennington.
-                  <br />
-                  Talking about my association with the club, I feel totally
-                  jubilant to have known the people of the club! It was always
-                  enthralling to sing along, rehearse and practice with these
-                  fabulous bunch of people! And, there was never a moment off!{" "}
-                  <br />
-                  Also, the amount of takeaways I had from being a part of
-                  sessions of the club, was really great! Because, when you
-                  practice with people you get to know enormous details,
-                  starting from the scale of the song to the very minute details
-                  like the vibrato!
-                  <br />
-                  EMCC has definitely helped me evolve as a better singer! P.S.
-                  I also, started learning to play the guitar and the keyboard
-                  (which I stopped learning in my 5th grade :/)
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </div>
-      <div className="card-centre">
-        <Row>
-          <Col>
-            <Card style={{ margin: 5 }}>
-              <Image
-                variant="top"
-                src="images/special/abhinav.jpg"
-                width={200}
-                height={200}
-                style={{ marginTop: "2%", marginLeft: "2%" }}
-                roundedCircle
-                fluid
-              />
-              <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
-                  Abhinava Karthikeya
-                </Card.Title>
-                <Card.Text>
-                  My association with music is one of the turning points in my
-                  life. When I was a child I was bad at everything (
-                  studies,sports etc). During my 4th standard there were few
-                  competitions in our school and I had to participate in it as
-                  it was compulsory for every one to participate in any one of
-                  them. I chose to participate in singing and I won second
-                  prize.
-                  <br />
-                  This helped me to boost my confidence and improve myself. I am
-                  not a trained singer but I would love to learn carnatic music
-                  and piano. My favourite artists include Anurag Kulkarni, Sid
-                  Sriram, Sunitha , Arjith Singh and many more.
-                  <br />
-                  Emcc helped me a lot in improving my skills.It gave me a
-                  chance to perform in many events,chance to meet many good
-                  musicians and share the stage with them. I feel excited being
-                  part of emcc and looking forward to participating in more
-                  events.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col lg={2}>
-            <Image src="images/gifs/music5.gif" width={200} height={200} />
-          </Col>
-        </Row>
-      </div>
-      <div className="card-centre">
-        <Row>
+        <Row className="align-items-center">
           <Col lg={2}>
             <Image src="images/gifs/music1.gif" width={200} height={200} />
           </Col>
@@ -173,168 +250,6 @@ export default function Specialmentions() {
                   like Shreya Ghoshal, Sid Sriram and music directors like A.R.
                   Rahman, M.M Keeravani made me love music even more with their
                   mesmerizing work in the music industry.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </div>
-      <div className="card-centre">
-        <Row>
-          <Col>
-            <Card style={{ margin: 5 }}>
-              <Image
-                variant="top"
-                src="images/special/kiran.jpg"
-                width={200}
-                height={200}
-                style={{ marginTop: "2%", marginLeft: "2%" }}
-                roundedCircle
-                fluid
-              />
-              <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
-                  Kiran Ganji
-                </Card.Title>
-                <Card.Text>
-                  Who doesn't love listening to music?!.. Even though I was a
-                  melophile from my childhood. I always used to listen to music
-                  and sing in front of my friends without knowing anything about
-                  music..just feeling the emotion of the song but I wasn't able
-                  to sing with that emotion. When I was in 6th standard, I saw
-                  one girl.She was so beautiful and smart as well. I don't know
-                  why..I used to feel happy around her. Gradually I fell in love
-                  with her. But I didn't have the courage to tell her . So I
-                  thought I could express my feelings through music. So I
-                  started exploring music and really enjoyed learning little
-                  basics .I sang "Naalone pongenu narmada" for her. She loved it
-                  and appreciated me . I was on cloud nine. Finally I proposed
-                  to her in 10th standard but she told me that she loves someone
-                  else. That really destroyed me mentally. I went into
-                  depression.Well.. that helped me in one way. After that
-                  incident, I was able to sing with emotion. Many people
-                  appreciated my voice and my way of singing. She's the main
-                  reason behind the 'emotion' in my singing . So yeah!.. that's
-                  how I got into music and I'm loving learning it ! Thanks to my
-                  first love &lt;3
-                  <br />
-                  My favourite artists are A.R.Rahman,G.V.Prakash,Armaan malik I
-                  listen to almost all genres of music cause I'm a melophile
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col lg={1}>
-            <Image src="images/gifs/music2.gif" width={200} height={200} />
-          </Col>
-        </Row>
-      </div>
-      <div className="card-centre">
-        <Row>
-          <Col lg={2}>
-            <Image src="images/gifs/music6.gif" width={200} height={200} />
-          </Col>
-          <Col>
-            <Card style={{ margin: 5 }}>
-              <Image
-                variant="top"
-                src="images/special/keerthana.jpg"
-                width={200}
-                height={200}
-                style={{ marginTop: "2%", marginLeft: "2%" }}
-                roundedCircle
-                fluid
-              />
-              <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
-                  Keerthana Reddy
-                </Card.Title>
-                <Card.Text>
-                  I was seven , when we moved to Gujarat. New place , new
-                  language , new culture but my love for the music stayed the
-                  same. I started learning hindustani music there and continued
-                  to do so until I moved to hyderabad. Though my music teacher
-                  taught me in gujarati , language was never a barrier for me to
-                  learn music. However, I lacked confidence to perform in front
-                  of an audience . I used to just sing in front of my mother,
-                  and she kept on forcing me to perform at family gatherings,
-                  but I always had an excuse. I've posted a few covers during
-                  the pandemic, and the response has boosted my confidence.
-                  Since then, I've been an active participant in emcc's events.
-                  I listen to a variety of genres but Sid Sriram's and Shawn
-                  Mendes songs are what I crave the most!.I'm looking forward to
-                  taking part in upcoming events, and I'll surely give it my
-                  all!
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </div>
-      <div className="card-centre">
-        <Row>
-          <Col>
-            <Card style={{ margin: 5 }}>
-              <Image
-                variant="top"
-                src="images/special/pratik.jpg"
-                width={200}
-                height={200}
-                style={{ marginTop: "2%", marginLeft: "2%" }}
-                roundedCircle
-                fluid
-              />
-              <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>Pratik</Card.Title>
-                <Card.Text>
-                  My mom made me join a guitar class for a few months but I
-                  learnt most of it in 2020 lockdown My favourite artists are
-                  The weeknd , Guns n Roses , maroon 5, one direction, kanye ,
-                  future , migos , lil uzi vert , arijit singh. My music
-                  interests are Hiphop, R&amp;b
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col lg={2}>
-            <Image src="images/gifs/music8.gif" width={200} height={200} />
-          </Col>
-        </Row>
-      </div>
-      <div className="card-centre">
-        <Row>
-          <Col lg={2}>
-            <Image src="images/gifs/music7.gif" width={200} height={200} />
-          </Col>
-          <Col>
-            <Card style={{ margin: 5 }}>
-              <Image
-                variant="top"
-                src="images/special/shishira.jpg"
-                width={200}
-                height={200}
-                style={{ marginTop: "2%", marginLeft: "2%" }}
-                roundedCircle
-                fluid
-              />
-              <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>Shishira</Card.Title>
-                <Card.Text>
-                  Hey...! I am Shishira. Here is a short glimpse of my music
-                  journey. I initiated my musical journey from an early age of
-                  mine with the tunes of Carnatic music. To advance my musical
-                  interest, I had done a certificate course in Carnatic music
-                  from the prestigious Pottisreeramulu Telugu University. I took
-                  part in carnatic concerts on the occasion of Sri Ramanavami
-                  and Thyagaraja Aradhana. I also extended my Carnatic music
-                  interest by participating in the bhajan Samrat event. I love
-                  Shreya Ghoshal's voice tone and singing style moving to the
-                  cinematic genre. I believe in a quote-
-                  <br />
-                  <q>
-                    Music is the literature of the heart; it commences where
-                    speech ends. - Alphonse de Lamartine
-                  </q>
                 </Card.Text>
               </Card.Body>
             </Card>
