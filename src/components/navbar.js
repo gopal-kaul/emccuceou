@@ -29,6 +29,9 @@ export default function MyNavbar({ selected }) {
                 <LinkContainer to={"/special"}>
                   <NavDropdown.Item>Special Mentions</NavDropdown.Item>
                 </LinkContainer>
+                <LinkContainer to={"/spotlight"}>
+                  <NavDropdown.Item>Spotlight</NavDropdown.Item>
+                </LinkContainer>
               </NavDropdown>
               <LinkContainer to={"/band"}>
                 <Nav.Link>The Band</Nav.Link>
