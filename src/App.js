@@ -11,6 +11,7 @@ import Committee from "./components/committee";
 import Specialmentions from "./components/special";
 import Events from "./components/events";
 import Band from "./components/band";
+import Spotlight from "./components/spotlight";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="president" element={<President />} />
         <Route path="committee" element={<Committee />} />
+        <Route path="spotlight" element={<Spotlight/>} />
         <Route path="faculty" element={<Faculty />} />
         <Route path="band" element={<Band />} />
         <Route path="special" element={<Specialmentions />} />
