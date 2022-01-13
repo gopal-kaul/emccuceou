@@ -41,6 +41,7 @@ export default function Events() {
     "17.jpg",
   ];
   const jam = ["1.jpg", "2.jpg", "3.jpg"];
+  const gettoknow = ["1.png", "2.png", "3.png"];
   return (
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
       <h1>Events Page</h1>
@@ -50,7 +51,11 @@ export default function Events() {
           {openmic.map((item, idx) => {
             return (
               <Carousel.Item>
-                <Image className="w-100" src={`images/openmic/${item}`} />
+                <Image
+                  id={idx}
+                  className="w-100 d-block"
+                  src={`images/openmic/${item}`}
+                />
               </Carousel.Item>
             );
           })}
@@ -80,7 +85,11 @@ export default function Events() {
           {raaga.map((item, idx) => {
             return (
               <Carousel.Item>
-                <Image className="w-100" src={`images/RAAGA/${item}`} />
+                <Image
+                  id={idx}
+                  className="w-100 d-block"
+                  src={`images/RAAGA/${item}`}
+                />
               </Carousel.Item>
             );
           })}
@@ -98,10 +107,19 @@ export default function Events() {
       </Card>
       <Card style={{ marginTop: "3%" }}>
         <Carousel fade>
+          <Carousel.Item>
+            <video className="w-100 d-block" controls>
+              <source src="images/jam/reel.mp4" />
+            </video>
+          </Carousel.Item>
           {jam.map((item, idx) => {
             return (
               <Carousel.Item>
-                <Image idx className="w-100" src={`images/jam/${item}`} />
+                <Image
+                  id={idx}
+                  className="w-100 d-block"
+                  src={`images/jam/${item}`}
+                />
               </Carousel.Item>
             );
           })}
@@ -119,6 +137,30 @@ export default function Events() {
             EMC² conducted its latest jam session on 25.11.2021. More than 100
             voices sang together along with the singers and made this event as
             Osmania University's very own concert!
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card style={{ marginTop: "3%" }}>
+        <Carousel fade>
+          {gettoknow.map((item, idx) => {
+            return (
+              <Carousel.Item>
+                <Image
+                  id={idx}
+                  className="w-100 d-block"
+                  src={`images/gettoknow/${item}`}
+                />
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
+        <Card.Body>
+          <Card.Title style={{ fontSize: "25px" }}>Get to know EMC²</Card.Title>
+          <Card.Text>
+            <br />
+            <br />
+            EMC² conducted an event to showcase the club to our newly joined
+            first years in the college!
           </Card.Text>
         </Card.Body>
       </Card>
