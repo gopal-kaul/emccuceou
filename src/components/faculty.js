@@ -18,7 +18,7 @@ export default function Faculty() {
           />
         </div>
         <div className="text-center">
-          <em>Dr. V. Uma Maheshwar</em>
+          <em style={{ fontSize: "3em" }}>Dr. V. Uma Maheshwar</em>
           <br />
           <p style={{ fontSize: "1.5em", marginTop: "5%", marginBottom: "5%" }}>
             Osmania University has crossed a mile stone of 100 years and
