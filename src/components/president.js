@@ -2,7 +2,7 @@ import { Image, Container } from "react-bootstrap";
 
 export default function President() {
   return (
-    <Container>
+    <Container className="my-5">
       <div
         className="center-image"
         style={{ display: "flex", justifyContent: "center", marginTop: "5%" }}
