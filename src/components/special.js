@@ -158,7 +158,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/vaishnavi.jpg"
+                src="images/special/vaishnavidanam.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -229,7 +229,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/vaishnavi.jpg"
+                src="images/special/vaishnavigannoji.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
