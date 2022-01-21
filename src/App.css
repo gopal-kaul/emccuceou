@@ -53,5 +53,7 @@
 .background-blur {
   backdrop-filter: saturate(180%) blur(20px);
   color: transparent;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
   text-shadow: 0 0 8px #000;
 }
