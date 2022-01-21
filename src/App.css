@@ -37,3 +37,21 @@
   display: flex;
   align-items: center;
 }
+
+.committee-btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.committee-desc {
+  font-size: 1.1rem;
+}
+.background-blur {
+  backdrop-filter: saturate(180%) blur(20px);
+  color: transparent;
+  text-shadow: 0 0 8px #000;
+}
