@@ -97,11 +97,15 @@ export default function Events() {
         <Card.Body>
           <Card.Title style={{ fontSize: "25px" }}>RAAGA</Card.Title>
           <Card.Text>
-            It is a singing competition held by the club every year to promote
-            upcoming singers in the University.
-            <br /> Only members of the club can participate in this event. There
-            are two categories for the performers: Classical and Western.
-            <br /> The winner of RAAGA gets to be the lead singer of the band.
+            RAAGA is an annual competition conducted by EMC² to promote upcoming
+            singers in the University. It is a competition where singers from
+            all the departments compete against one title. This is an event
+            where the members of EMC² participate in two different categories
+            Classic and Western. The event will be judged by renowned musicians
+            who already have a say in the music industry and the winners of this
+            event will be the lead singer of the EMC² band "The Jesters". EMC²
+            has been conducting this event successfully for three years and the
+            number of participants keeps increasing.
           </Card.Text>
         </Card.Body>
       </Card>
@@ -157,10 +161,12 @@ export default function Events() {
         <Card.Body>
           <Card.Title style={{ fontSize: "25px" }}>Get to know EMC²</Card.Title>
           <Card.Text>
-            <br />
-            <br />
-            EMC² conducted an event to showcase the club to our newly joined
-            first years in the college!
+            Get to know EMC² is an event conducted to introduce the club to all
+            the first years. Many students who are new to college wouldn’t know
+            much about the events and clubs in the college. hence we want to
+            make each and every newcomer feel like they have a safe place to
+            share their cultural interests. We are certain that we have created
+            that space among all our juniors.
           </Card.Text>
         </Card.Body>
       </Card>
