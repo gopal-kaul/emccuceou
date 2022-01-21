@@ -12,6 +12,7 @@ import Specialmentions from "./components/special";
 import Events from "./components/events";
 import Band from "./components/band";
 import Spotlight from "./components/spotlight";
+import PastCommittee from "./components/pastcommittee";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="band" element={<Band />} />
         <Route path="special" element={<Specialmentions />} />
         <Route path="events" element={<Events />} />
+        <Route path="pastcommittee" element={<PastCommittee />} />
       </Routes>
       <Footer />
     </BrowserRouter>
