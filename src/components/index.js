@@ -18,14 +18,18 @@ export default function IndexPage() {
             src="/images/jam/3.jpg"
             alt="Second slide"
           />
+          <Carousel.Caption>
+            <h3>Jam Session, 25th November 2021</h3>
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
       <Container>
         <div className="main-text">
-          <h3>EMC²</h3>
-          <p>
-            <em>Osmania University's Music Club!</em>
-          </p>
+          <h2>EMC²</h2>
+          <em>Osmania University's Music Club!</em>
+          <br />
+          <br />
+          <br />
           <p>
             EMC², expanded as Engineers’ Music and Cultural Club, is Osmania
             University College of Engineering’s first official non-technical
