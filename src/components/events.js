@@ -59,6 +59,11 @@ export default function Events() {
               </Carousel.Item>
             );
           })}
+          <Carousel.Item>
+            <video className="w-100 d-block" controls>
+              <source src="images/openmic/reel.mp4" />
+            </video>
+          </Carousel.Item>
         </Carousel>
         <Card.Body>
           <Card.Title style={{ fontSize: "25px" }}>Open Mic</Card.Title>
