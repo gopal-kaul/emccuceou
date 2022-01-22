@@ -17,7 +17,6 @@ export default function Events() {
     "12.jpg",
     "13.jpg",
     "14.jpg",
-    "15.jpg",
   ];
   const raaga = [
     "1.jpg",
