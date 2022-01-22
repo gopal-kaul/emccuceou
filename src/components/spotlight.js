@@ -5,7 +5,10 @@ export default function Specialmentions() {
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
       <h1>Spotlight</h1>
       <hr />
-      <p style={{fontSize: "1.25rem"}}>Here are a few famous singers to keep an eye out for in college events and performances!</p>
+      <p style={{ fontSize: "1.25rem" }}>
+        Here are a few famous singers to keep an eye out for in college events
+        and performances!
+      </p>
       <div className="card-centre">
         <Row className="align-items-center">
           <Col>
@@ -103,6 +106,89 @@ export default function Specialmentions() {
                   musicians and share the stage with them. I feel excited being
                   part of emcc and looking forward to participating in more
                   events.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+      <div className="card-centre">
+        <Row className="align-items-center">
+          <Col>
+            <Card style={{ margin: 5 }}>
+              <Image
+                variant="top"
+                src="images/niharika.jpg"
+                width={200}
+                height={200}
+                style={{ marginTop: "2%", marginLeft: "2%" }}
+                roundedCircle
+                fluid
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "25px" }}>
+                  Niharika Musuku
+                </Card.Title>
+                <Card.Text>
+                  It all started when I was in my first standard and my dad
+                  decided to engage me in a co-curricular activity. He
+                  introduced me to my neighbour who happens to be a music
+                  teacher. I started going to her classes which gradually made
+                  me realise my hidden interest in music. Eventually, I started
+                  performing in school and college level singing competitions
+                  improving myself but my only hurdle was stage fear. I couldn’t
+                  enjoy the song completely because of it and then i realised
+                  feeling every bit of the song helps me enjoy the song and also
+                  improve my performance. I admire a lot of music artists but
+                  Shreya Ghoshal and SP Balasubramaniam always stay on the top
+                  of that list.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col lg={2}>
+            <Image src="images/gifs/music8.gif" width={200} height={200} />
+          </Col>
+        </Row>
+      </div>
+      <div className="card-centre">
+        <Row className="align-items-center">
+          <Col lg={2}>
+            <Image src="images/gifs/music7.gif" width={200} height={200} />
+          </Col>
+          <Col>
+            <Card style={{ margin: 5 }}>
+              <Image
+                variant="top"
+                src="images/shiney.jpg"
+                width={200}
+                height={200}
+                style={{ marginTop: "2%", marginLeft: "2%" }}
+                roundedCircle
+                fluid
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "25px" }}>
+                  Shiney Sadanand
+                </Card.Title>
+                <Card.Text>
+                  My interaction with music happened when I was 11 year
+                  old.Younger me was very active and wanted to participate in
+                  every cultural competition happened in my school.So,I
+                  participated in a singing competition and won 2nd prize.I
+                  didn't know that I could sing until that very moment. From
+                  then I used to take part in every event.My teachers were so
+                  supportive of me.I got a little bit worried whether I could
+                  carry on my hobby in my graduation,but yay! EMC² relieved me.
+                  EMC² didn't only support me but also improved my singing
+                  abilities and music taste.The kind off music I listen to would
+                  be pop.My favourite artists are Harry Styles,Zayn Malik,Taylor
+                  Swift,Dua Lipa .I enjoy listening to Sid Sriram,Arijit Singh
+                  and Atif Aslam too.With the help of EMC² I got a chance to
+                  perform in many events,along with other fellow singers and
+                  musicians.Now, as a committee member of EMC²,I'm looking
+                  forward to work with many more artists and refining their
+                  talents.We are happy to help.
                 </Card.Text>
               </Card.Body>
             </Card>
