@@ -1,6 +1,7 @@
 .main-text {
   margin-top: 5%;
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .center-image {
@@ -58,6 +59,7 @@
   text-shadow: 0 0 8px #000;
 }
 
-.committee-btn:hover, .index-photo:hover {
+.committee-btn:hover,
+.index-photo:hover {
   transform: scale(1.25);
 }
