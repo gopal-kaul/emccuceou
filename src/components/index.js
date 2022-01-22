@@ -8,7 +8,7 @@ export default function IndexPage() {
         <Carousel.Item>
           <Image
             className="d-block w-100"
-            src="/images/logo.jpeg"
+            src="/images/emcc-back.png"
             alt="First slide"
           />
         </Carousel.Item>
