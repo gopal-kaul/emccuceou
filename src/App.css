@@ -57,3 +57,7 @@
   -webkit-filter: blur(8px);
   text-shadow: 0 0 8px #000;
 }
+
+.committee-btn:hover {
+  transform: scale(1.25);
+}
