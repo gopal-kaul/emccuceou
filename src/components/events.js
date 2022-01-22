@@ -56,11 +56,6 @@ export default function Events() {
               </Carousel.Item>
             );
           })}
-          <Carousel.Item>
-            <video className="w-100 d-block" controls>
-              <source src="images/openmic/reel.mp4" />
-            </video>
-          </Carousel.Item>
         </Carousel>
         <Card.Body>
           <Card.Title style={{ fontSize: "25px" }}>Open Mic</Card.Title>
@@ -113,11 +108,6 @@ export default function Events() {
       </Card>
       <Card style={{ marginTop: "3%" }}>
         <Carousel fade>
-          <Carousel.Item>
-            <video className="w-100 d-block" controls>
-              <source src="images/jam/reel.mp4" />
-            </video>
-          </Carousel.Item>
           {jam.map((item, idx) => {
             return (
               <Carousel.Item>
@@ -169,6 +159,36 @@ export default function Events() {
             make each and every newcomer feel like they have a safe place to
             share their cultural interests. We are certain that we have created
             that space among all our juniors.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card style={{ marginTop: "3%" }}>
+        <Carousel fade>
+          <Carousel.Item>
+            <video className="w-100 d-block" controls>
+              <source src="images/openmic/reel.mp4" />
+            </video>
+            <Carousel.Caption>
+              <h3>
+                Open Mic - 1, December 16<sup>th</sup> 2021
+              </h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <video className="w-100 d-block" controls>
+              <source src="images/jam/reel.mp4" />
+            </video>
+            <Carousel.Caption>
+              <h3>
+                Jam Session, 25<sup>th</sup> November 2021
+              </h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+        <Card.Body>
+          <Card.Title style={{ fontSize: "25px" }}>Our Reels</Card.Title>
+          <Card.Text>
+            These are a few reels made for our club's Instagram page.
           </Card.Text>
         </Card.Body>
       </Card>
