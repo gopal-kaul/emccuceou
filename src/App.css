@@ -58,6 +58,6 @@
   text-shadow: 0 0 8px #000;
 }
 
-.committee-btn:hover {
+.committee-btn:hover, .index-photo:hover {
   transform: scale(1.25);
 }
