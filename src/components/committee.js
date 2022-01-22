@@ -278,7 +278,7 @@ export default function Committee() {
                   />
                 </button>
                 <h3 className="title">Abdul Ghani</h3>
-                <h5 className="role">Promotions</h5>
+                <h5 className="role">Promotions Head</h5>
               </div>
               {text === "abdul" && (
                 <p className="committee-desc">
