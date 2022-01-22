@@ -145,14 +145,14 @@ export default function Specialmentions() {
             </Card>
           </Col>
           <Col lg={2}>
-            <Image src="images/gifs/music3.gif" width={200} height={200} />
+            <Image src="images/gifs/music6.gif" width={200} height={200} />
           </Col>
         </Row>
       </div>
       <div className="card-centre">
         <Row className="align-items-center">
           <Col lg={2}>
-            <Image src="images/gifs/music1.gif" width={200} height={200} />
+            <Image src="images/gifs/music5.gif" width={200} height={200} />
           </Col>
           <Col>
             <Card style={{ margin: 5 }}>
@@ -216,14 +216,14 @@ export default function Specialmentions() {
             </Card>
           </Col>
           <Col lg={2}>
-            <Image src="images/gifs/music3.gif" width={200} height={200} />
+            <Image src="images/gifs/music2.gif" width={200} height={200} />
           </Col>
         </Row>
       </div>
       <div className="card-centre">
         <Row className="align-items-center">
           <Col lg={2}>
-            <Image src="images/gifs/music1.gif" width={200} height={200} />
+            <Image src="images/gifs/music4.gif" width={200} height={200} />
           </Col>
           <Col>
             <Card style={{ margin: 5 }}>
