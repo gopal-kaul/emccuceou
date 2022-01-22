@@ -7,7 +7,7 @@ export default function band() {
       <hr />
       <Carousel fade>
         <Carousel.Item>
-          <Image className="w-100" src={"images/openmic/12.jpg"} />
+          <Image className="w-100" src={"images/openmic/11.jpg"} />
         </Carousel.Item>
         <Carousel.Item>
           <Image className="w-100" src={"images/band/1.jpg"} />
