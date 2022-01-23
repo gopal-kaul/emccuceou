@@ -53,6 +53,7 @@
 }
 .background-blur {
   backdrop-filter: saturate(180%) blur(20px);
+  transition: 0.5s;
   color: transparent;
   filter: blur(8px);
   -webkit-filter: blur(8px);
@@ -62,4 +63,5 @@
 .committee-btn:hover,
 .index-photo:hover {
   transform: scale(1.25);
+  transition: 0.5s;
 }
