@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Image, Container, Row, Col } from "react-bootstrap";
-export default function Specialmentions() {
+export default function Spotlight() {
   return (
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
       <h1>Spotlight</h1>
@@ -15,7 +15,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/surabhi.jpg"
+                src="images/spotlight/surabhi.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -76,7 +76,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/abhinav.jpg"
+                src="images/spotlight/abhinav.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -201,7 +201,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/kiran.jpg"
+                src="images/spotlight/kiran.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -254,7 +254,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/keerthana.jpg"
+                src="images/spotlight/keerthana.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -293,7 +293,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/pratik.jpg"
+                src="images/spotlight/pratik.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -326,7 +326,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/shishira.jpg"
+                src="images/spotlight/shishira.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
