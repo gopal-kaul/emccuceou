@@ -229,6 +229,55 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
+                src="images/special/akhila.jpg"
+                width={200}
+                height={200}
+                style={{ marginTop: "2%", marginLeft: "2%" }}
+                roundedCircle
+                fluid
+              />
+              <Card.Body>
+                <Card.Title style={{ fontSize: "25px" }}>
+                  Akhila Munnaluru
+                </Card.Title>
+                <Card.Text>
+                  I was introduced to the amazing world of music quite early in
+                  my life. My first teacher was my mother. I started learning
+                  Carnatic classical music from her since the age of three.
+                  Though I loved singing and lost the sense of the world
+                  everytime I sang, I felt uncomfortable in crowd. I was quite
+                  shy and was very reluctant to sing when people were around.
+                  This changed in my third standard when I participated in the
+                  All India Music Competitions for the first time. I was quite
+                  nervous and was too young to handle the pressure, midst the
+                  song my mind felt blank and my lips went numb, I couldn't
+                  complete my song and was not awarded any marks that year.
+                  However, it was the most memorable moment. It thought me what
+                  pressure was capable of doing. I went back the following year
+                  only to win the first prize.That prize took the confidence in
+                  me to next level and what followed after was string of prizes
+                  in competitions until my tenth class. Hectic academic schedule
+                  and never ending weekend tests made sure I wouldn't take music
+                  classes anymore atleast for next 2 years. Fast forward to
+                  engineering, I resumed my journey and started learning from
+                  Shri Kyvalya Kumar Garu, under whom I have cleared the
+                  Certificate course in music with distinction. For the year
+                  2020-21 I served as the general secretary for the college
+                  music club EMC². Even after being 15 years into music, I am
+                  still curious and I wish to acquire as much musical knowledge
+                  as I can.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+      <div className="card-centre">
+        <Row className="align-items-center">
+          <Col>
+            <Card style={{ margin: 5 }}>
+              <Image
+                variant="top"
                 src="images/special/vaishnavigannoji.jpg"
                 width={200}
                 height={200}
@@ -253,6 +302,9 @@ export default function Specialmentions() {
                 </Card.Text>
               </Card.Body>
             </Card>
+          </Col>
+          <Col lg={2}>
+            <Image src="images/gifs/music7.gif" width={200} height={200} />
           </Col>
         </Row>
       </div>
