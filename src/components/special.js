@@ -16,6 +16,7 @@ export default function Specialmentions() {
               <Image
                 variant="top"
                 src="images/special/prachotan.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -70,6 +71,7 @@ export default function Specialmentions() {
               <Image
                 variant="top"
                 src="images/special/sarthak.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -117,6 +119,7 @@ export default function Specialmentions() {
               <Image
                 variant="top"
                 src="images/special/sudhanshu.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -159,6 +162,7 @@ export default function Specialmentions() {
               <Image
                 variant="top"
                 src="images/special/vaishnavidanam.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -192,6 +196,7 @@ export default function Specialmentions() {
               <Image
                 variant="top"
                 src="images/special/nathan.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -230,6 +235,7 @@ export default function Specialmentions() {
               <Image
                 variant="top"
                 src="images/special/akhila.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -279,6 +285,7 @@ export default function Specialmentions() {
               <Image
                 variant="top"
                 src="images/special/vaishnavigannoji.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
