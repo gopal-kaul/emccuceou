@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, Image, Container, Row, Col } from "react-bootstrap";
-export default function Spotlight() {
+export default function SpotlightSingers() {
   return (
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
-      <h1>Spotlight</h1>
+      <h1>Spotlight (Singers)</h1>
       <hr />
       <p style={{ fontSize: "1.25rem" }}>
         Here are a few famous singers to keep an eye out for in college events
@@ -15,7 +15,8 @@ export default function Spotlight() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/spotlight/surabhi.jpg"
+                className="img-shadow index-photo"
+                src="images/singers/surabhi.jpg"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -76,7 +77,8 @@ export default function Spotlight() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/spotlight/abhinav.jpg"
+                src="images/singers/abhinav.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -119,6 +121,7 @@ export default function Spotlight() {
               <Image
                 variant="top"
                 src="images/niharika.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -160,6 +163,7 @@ export default function Spotlight() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
+                className="img-shadow index-photo"
                 src="images/shiney.jpg"
                 width={200}
                 height={200}
@@ -201,7 +205,8 @@ export default function Spotlight() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/spotlight/kiran.jpg"
+                src="images/singers/kiran.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -254,7 +259,8 @@ export default function Spotlight() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/spotlight/keerthana.jpg"
+                src="images/singers/keerthana.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -293,7 +299,8 @@ export default function Spotlight() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/spotlight/pratik.jpg"
+                src="images/singers/pratik.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -326,7 +333,8 @@ export default function Spotlight() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/spotlight/shishira.jpg"
+                src="images/singers/shishira.jpg"
+                className="img-shadow index-photo"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
