@@ -55,18 +55,6 @@ export default function MyNavbar() {
                 <NavDropdown.Item href="/events#gettoknow">
                   Get to Know EMC²
                 </NavDropdown.Item>
-                {/* <LinkContainer to={"/events#openmic"}>
-                  <NavDropdown.Item>Open Mic</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to={"/events#raaga"}>
-                  <NavDropdown.Item>RAAGA</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to={"/events#jam"}>
-                  <NavDropdown.Item>Jam Session</NavDropdown.Item>
-                </LinkContainer>
-                <LinkContainer to={"/events#gettoknow"}>
-                  <NavDropdown.Item>Get to Know EMC²</NavDropdown.Item>
-                </LinkContainer> */}
               </NavDropdown>
               <LinkContainer to={"/contact"}>
                 <Nav.Link>Contact Us</Nav.Link>
