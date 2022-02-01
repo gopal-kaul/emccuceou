@@ -11,8 +11,9 @@ import Committee from "./components/committee";
 import Specialmentions from "./components/special";
 import Events from "./components/events";
 import Band from "./components/band";
-import Spotlight from "./components/spotlight";
 import PastCommittee from "./components/pastcommittee";
+import SpotlightSingers from "./components/spotlightsingers";
+import SpotlightDangers from "./components/spotlightdance";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="president" element={<President />} />
         <Route path="committee" element={<Committee />} />
-        <Route path="spotlight" element={<Spotlight/>} />
+        <Route path="singers" element={<SpotlightSingers/>} />
+        <Route path="dancers" element={<SpotlightDangers/>} />
         <Route path="faculty" element={<Faculty />} />
         <Route path="band" element={<Band />} />
         <Route path="special" element={<Specialmentions />} />
