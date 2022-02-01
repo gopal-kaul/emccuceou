@@ -65,3 +65,22 @@
   transform: scale(1.25);
   transition: 0.5s;
 }
+
+a.eventref,
+a.eventref:hover {
+  color: black;
+  text-decoration: none !important;
+}
+.eventlink:hover {
+  text-shadow: 5px black;
+  font-weight: 700;
+  font-size: 1.25em;
+  width: 100%;
+  transition: 0.35s;
+}
+.eventlink {
+  text-align: center;
+}
+.eventbar {
+  background-color: #e2e2e2;
+}
