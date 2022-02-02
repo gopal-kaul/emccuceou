@@ -82,5 +82,5 @@ a.eventref:hover {
   text-align: center;
 }
 .eventbar {
-  background-color: #e2e2e2;
+  background-color: rgba(0, 0, 0, 0.03);
 }
