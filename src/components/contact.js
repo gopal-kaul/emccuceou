@@ -25,8 +25,13 @@ export default function Contact() {
               <br />
             </div>
             <div>
-              <a href="https://www.instagram.com/emccuceou/">
-                <Instagram /> Follow
+              <a
+                target="_blank"
+                rel="noreferrer"
+                style={{ color: "#000000", textDecoration: "none" }}
+                href="https://www.instagram.com/emccuceou/"
+              >
+                <Instagram /> Our Instagram
               </a>
             </div>
           </div>
