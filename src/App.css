@@ -62,15 +62,10 @@
 
 .committee-btn:hover,
 .index-photo:hover {
-  transform: scale(1.25);
+  transform: scale(1.15);
   transition: 0.5s;
 }
 
-a.eventref,
-a.eventref:hover {
-  color: black;
-  text-decoration: none !important;
-}
 .eventlink:hover {
   text-shadow: 5px black;
   font-weight: 700;
@@ -83,4 +78,26 @@ a.eventref:hover {
 }
 .eventbar {
   background-color: rgba(0, 0, 0, 0.03);
+}
+.eventref {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+
+.indexwrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
