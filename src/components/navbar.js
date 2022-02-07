@@ -44,18 +44,9 @@ export default function MyNavbar() {
               <LinkContainer to={"/band"}>
                 <Nav.Link>The Band</Nav.Link>
               </LinkContainer>
-              <NavDropdown title="Events" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="/events#openmic">
-                  Open Mic
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/events#raaga">RAAGA</NavDropdown.Item>
-                <NavDropdown.Item href="/events#jam">
-                  Jam Session
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/events#gettoknow">
-                  Get to Know EMC²
-                </NavDropdown.Item>
-              </NavDropdown>
+              <LinkContainer to={"/events"}>
+                <Nav.Link>Events</Nav.Link>
+              </LinkContainer>
               <LinkContainer to={"/contact"}>
                 <Nav.Link>Contact Us</Nav.Link>
               </LinkContainer>
