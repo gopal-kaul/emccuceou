@@ -1,4 +1,4 @@
-import { Carousel, Container, Image, Row, Col } from "react-bootstrap";
+import { Container, Image, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function IndexPage() {

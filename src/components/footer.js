@@ -22,14 +22,22 @@ export default function Footer() {
           <br />
           Osmania University, Hyderabad – 07 <br />
         </i>
-        <a style={{color:"#FFFFFF", textDecoration: "none"}} target="_blank" href="https://www.instagram.com/emccuceou/">
-          <Instagram />
-          {" "}Instagram
+        <a
+          style={{ color: "#FFFFFF", textDecoration: "none" }}
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.instagram.com/emccuceou/"
+        >
+          <Instagram /> Instagram
         </a>
         <br />
-        <a style={{color:"#FFFFFF", textDecoration: "none"}} target="_blank" href="https://www.facebook.com/emccuceou/">
-          <Facebook />
-          {" "}Facebook
+        <a
+          style={{ color: "#FFFFFF", textDecoration: "none" }}
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.facebook.com/emccuceou/"
+        >
+          <Facebook /> Facebook
         </a>
       </p>
     </footer>
