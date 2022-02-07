@@ -4,25 +4,11 @@ import { Link } from "react-router-dom";
 export default function IndexPage() {
   return (
     <>
-      <Carousel fade>
-        <Carousel.Item>
-          <Image
-            className="d-block w-100"
-            src="/images/emcc-back.png"
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image
-            className="d-block w-100"
-            src="/images/jam/3.jpg"
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3>Jam Session, 25th November 2021</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+      <Image
+        className="d-block w-100"
+        src="/images/emcc-back.png"
+        alt="First slide"
+      />
       <Container>
         <div className="main-text">
           <h2>EMC²</h2>
@@ -51,43 +37,47 @@ export default function IndexPage() {
             cultural forum as well.
           </p>
         </div>
-        <Row xs={1} md={1} lg={4}>
+        <Row xs={1} md={2} lg={2}>
           <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
-            <Link to="/faculty">
-              {" "}
-              <Image
-                className="img-shadow index-photo"
-                style={{ padding: "5px" }}
-                src="images/faculty.jpeg"
-                alt="Faculty"
-                width={200}
-                height={200}
-                roundedCircle
-                fluid
-              />
-            </Link>
+            <div className="indexwrapper">
+              <Link
+                style={{ color: "#000000", textDecoration: "none" }}
+                to="/faculty"
+              >
+                <Image
+                  className="img-shadow index-photo"
+                  style={{ padding: "5px" }}
+                  src="images/faculty.jpeg"
+                  alt="Faculty"
+                  width={200}
+                  height={200}
+                  roundedCircle
+                  fluid
+                />
+                <h3>Message from the Faculty Advisor</h3>
+                <em>Dr. V. Uma Maheshwar</em>
+              </Link>
+            </div>
           </Col>
           <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
-            <h3>Message from the Faculty Advisor</h3>
-            <em>Dr. V. Uma Maheshwar</em>
-          </Col>
-          <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
-            <Link to="/president">
-              {" "}
-              <Image
-                className="img-shadow index-photo"
-                src="images/president.jpeg"
-                alt="president"
-                width={200}
-                height={200}
-                roundedCircle
-                fluid
-              />
-            </Link>
-          </Col>
-          <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
-            <h3>Message from the President</h3>
-            <em>Gopal Kaul</em>
+            <div className="indexwrapper">
+              <Link
+                style={{ color: "#000000", textDecoration: "none" }}
+                to="/president"
+              >
+                <Image
+                  className="img-shadow index-photo"
+                  src="images/president.jpeg"
+                  alt="president"
+                  width={200}
+                  height={200}
+                  roundedCircle
+                  fluid
+                />
+                <h3>Message from the President</h3>
+                <em>Gopal Kaul</em>
+              </Link>
+            </div>
           </Col>
         </Row>
       </Container>
