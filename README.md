@@ -1,12 +1,15 @@
 # EMC² UCEOU
 
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=emccuceou&logo=false)
+![GitHub Repo stars](https://img.shields.io/github/stars/gopal-kaul/emccuceou?style=social)  
 This is the Repository for EMC² UCEOU Website. CI/CD is set up with Vercel.
 
 [EMC² UCEOU](https://emccuceou.vercel.app/)
 
 ## Contributors-
 
-- [Gopal Kaul](https://github.com/gopal-kaul)
+[Gopal Kaul](https://github.com/gopal-kaul)  
+![GitHub followers](https://img.shields.io/github/followers/gopal-kaul?style=social)
 
 ## External Inputs-
 
