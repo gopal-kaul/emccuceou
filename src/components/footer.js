@@ -1,5 +1,4 @@
-import { Instagram, Facebook } from "react-bootstrap-icons";
-
+import { Instagram, Facebook, Youtube } from "react-bootstrap-icons";
 export default function Footer() {
   return (
     <footer
@@ -28,16 +27,25 @@ export default function Footer() {
           target="_blank"
           href="https://www.instagram.com/emccuceou/"
         >
-          <Instagram /> Instagram
+          <Instagram size={"1.3rem"} />
         </a>
-        <br />
+        {"     "}
         <a
           style={{ color: "#FFFFFF", textDecoration: "none" }}
           rel="noreferrer"
           target="_blank"
           href="https://www.facebook.com/emccuceou/"
         >
-          <Facebook /> Facebook
+          <Facebook size={"1.3rem"} />
+        </a>
+        {"     "}
+        <a
+          style={{ color: "#FFFFFF", textDecoration: "none" }}
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.youtube.com/channel/UC78GI0nIAsYtbUix2_QbN7Q"
+        >
+          <Youtube size={"1.8rem"} />
         </a>
       </p>
     </footer>
