@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card, Container, Carousel, Image, Row, Col } from "react-bootstrap";
-import ScrollToTop from "react-scroll-to-top";
+import { Animated } from "react-animated-css";
 
 function OpenMic() {
   return (
@@ -150,7 +150,6 @@ export default function Events() {
     <Container
       style={{ marginTop: "2%", marginBottom: "2%", scrollBehavior: "smooth" }}
     >
-      <ScrollToTop smooth style={{ borderRadius: "50%" }} />
       <h1>Events Page</h1>
       <hr />
       <p style={{ fontSize: "1.5rem" }}>
@@ -188,10 +187,34 @@ export default function Events() {
           </Col>
         </Row>
       </div>
-      {select === "openmic" && <OpenMic />}
-      {select === "jam" && <Jam />}
-      {select === "gettoknow" && <GetToKnow />}
-      {select === "raaga" && <RAAGA />}
+      <Animated
+        animationIn="fadeInLeft"
+        isVisible={select === "openmic" ? true : false}
+        style={{ display: select !== "openmic" && "none" }}
+      >
+        <OpenMic />
+      </Animated>
+      <Animated
+        animationIn="bounceInDown"
+        isVisible={select === "raaga" ? true : false}
+        style={{ display: select !== "raaga" && "none" }}
+      >
+        <RAAGA />
+      </Animated>
+      <Animated
+        animationIn="zoomIn"
+        isVisible={select === "gettoknow" ? true : false}
+        style={{ display: select !== "gettoknow" && "none" }}
+      >
+        <GetToKnow />
+      </Animated>
+      <Animated
+        animationIn="rollIn"
+        isVisible={select === "jam" ? true : false}
+        style={{ display: select !== "jam" && "none" }}
+      >
+        <Jam />
+      </Animated>
     </Container>
   );
 }
