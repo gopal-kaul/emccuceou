@@ -81,7 +81,7 @@ function Jam() {
     <>
       <Card style={{ marginTop: "3%" }}>
         <Carousel fade>
-          {[...Array(3)].map((item, idx) => {
+          {[...Array(2)].map((item, idx) => {
             return (
               <Carousel.Item>
                 <Image
