@@ -196,24 +196,24 @@ export default function Events() {
         <OpenMic />
       </Animated>
       <Animated
-        animationIn="fadeInRight"
-        animationOut="fadeOutLeft"
+        animationIn="zoomIn"
+        animationOut="zoomOut"
         isVisible={select === "raaga" ? true : false}
         style={{ display: select !== "raaga" && "none" }}
       >
         <RAAGA />
       </Animated>
       <Animated
-        animationIn="fadeInRight"
-        animationOut="fadeOutLeft"
+        animationIn="zoomIn"
+        animationOut="zoomOut"
         isVisible={select === "gettoknow" ? true : false}
         style={{ display: select !== "gettoknow" && "none" }}
       >
         <GetToKnow />
       </Animated>
       <Animated
-        animationIn="fadeInRight"
-        animationOut="fadeOutLeft"
+        animationIn="zoomIn"
+        animationOut="zoomOut"
         isVisible={select === "jam" ? true : false}
         style={{ display: select !== "jam" && "none" }}
       >
