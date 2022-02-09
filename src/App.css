@@ -103,3 +103,10 @@
   flex-direction: column;
   text-align: center;
 }
+
+.resetbutton {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  text-align: start;
+}
