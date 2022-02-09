@@ -188,28 +188,32 @@ export default function Events() {
         </Row>
       </div>
       <Animated
-        animationIn="fadeInLeft"
+        animationIn="zoomIn"
+        animationOut="zoomOut"
         isVisible={select === "openmic" ? true : false}
         style={{ display: select !== "openmic" && "none" }}
       >
         <OpenMic />
       </Animated>
       <Animated
-        animationIn="bounceInDown"
+        animationIn="fadeInRight"
+        animationOut="fadeOutLeft"
         isVisible={select === "raaga" ? true : false}
         style={{ display: select !== "raaga" && "none" }}
       >
         <RAAGA />
       </Animated>
       <Animated
-        animationIn="zoomIn"
+        animationIn="fadeInRight"
+        animationOut="fadeOutLeft"
         isVisible={select === "gettoknow" ? true : false}
         style={{ display: select !== "gettoknow" && "none" }}
       >
         <GetToKnow />
       </Animated>
       <Animated
-        animationIn="rollIn"
+        animationIn="fadeInRight"
+        animationOut="fadeOutLeft"
         isVisible={select === "jam" ? true : false}
         style={{ display: select !== "jam" && "none" }}
       >
