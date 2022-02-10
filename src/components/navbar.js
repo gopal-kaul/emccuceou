@@ -22,6 +22,9 @@ export default function MyNavbar() {
               <LinkContainer to={"/"}>
                 <Nav.Link>Home</Nav.Link>
               </LinkContainer>
+              <LinkContainer to={"/aboutus"}>
+                <Nav.Link>About Us</Nav.Link>
+              </LinkContainer>
               <NavDropdown title="The Committee" id="collasible-nav-dropdown">
                 <LinkContainer to={"/committee"}>
                   <NavDropdown.Item>Present Committee</NavDropdown.Item>
