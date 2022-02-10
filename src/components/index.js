@@ -9,33 +9,18 @@ export default function IndexPage() {
         src="/images/emcc-back.png"
         alt="First slide"
       />
-      <Container>
-        <div className="main-text">
-          <h2>EMC²</h2>
-          <em>Osmania University's Music Club!</em>
+      <Container style={{ marginTop: "3%", marginBottom: "5%" }}>
+        <div style={{ textAlign: "center" }}>
+          <h2>Engineers' Music and Cultural Club</h2>
+          <i>Osmania University's Music Club!</i>
           <br />
           <br />
-          <br />
-          <p>
-            EMC², expanded as Engineers’ Music and Cultural Club, is Osmania
-            University College of Engineering’s first official non-technical
-            club, established in July 2018. The club aims towards building a
-            conducive ecosystem for all the musicians and music lovers in the
-            college to share their musical views and enhance their potential in
-            whatever way possible. EMC² conducts regular jam sessions and Open
-            Mic events to provide a platform for students to express themselves.
-            “RAAGA: The Voice Hunt”, the annual music competition organized by
-            the club, drew a lot of raw talent to the limelight and has given
-            them exposure to take their passion forward. The official band of
-            the club was formed last year; the band even took part in a couple
-            of “Battle of Bands” events. Guitar classes are frequently held,
-            where interested students are taught by members of the club itself.
-            Members of the club actively participated in cultural events in the
-            college on quite a few occasions like the “Global Alumni Meet, 2019”
-            and the university’s former Vice Chancellor Prof. S Ramachandram’s
-            retirement ceremony - justifying the club’s premise of existing as a
-            cultural forum as well.
+          <p style={{ fontSize: "1.5rem" }}>
+            Engineers’ Music and Cultural Club or as we would like to call EMC²,
+            is Osmania University College of Engineering’s first and largest
+            official non-technical club, established in July 2018.
           </p>
+          <hr />
         </div>
         <Row xs={1} md={2} lg={2}>
           <Col style={{ marginTop: "5%", marginBottom: "5%" }}>
@@ -76,6 +61,38 @@ export default function IndexPage() {
                 />
                 <h3>Message from the President</h3>
                 <em>Gopal Kaul</em>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+        <hr />
+        <h3 style={{ textAlign: "center" }}>Quick Links</h3>
+        <Row xs={1} md={2} lg={2}>
+          <Col style={{ marginTop: "2.5%" }}>
+            <div className="indexwrapper linkborder">
+              <Link to="/events" className="linkreset">
+                <h3>Events</h3>
+              </Link>
+            </div>
+          </Col>
+          <Col style={{ marginTop: "2.5%" }}>
+            <div className="indexwrapper linkborder">
+              <Link to="/aboutus" className="linkreset">
+                <h3>About Us</h3>
+              </Link>
+            </div>
+          </Col>
+          <Col style={{ marginTop: "2.5%" }}>
+            <div className="indexwrapper linkborder">
+              <Link to="/band" className="linkreset">
+                <h3>The Band</h3>
+              </Link>
+            </div>
+          </Col>
+          <Col style={{ marginTop: "2.5%" }}>
+            <div className="indexwrapper linkborder">
+              <Link to="/special" className="linkreset">
+                <h3>Special Mentions</h3>
               </Link>
             </div>
           </Col>
