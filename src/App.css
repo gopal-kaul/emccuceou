@@ -110,3 +110,22 @@
   background-color: inherit;
   text-align: start;
 }
+
+.linkborder {
+  border: 5px grey solid;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.linkborder:hover {
+  transform: scale(1.25);
+  transition: 0.5s;
+}
+
+.linkreset {
+  color: black;
+  text-decoration: none;
+}
+
+.linkreset:hover {
+  color: inherit;
+}
