@@ -11,7 +11,7 @@ function OpenMic() {
             return (
               <Carousel.Item>
                 <Image
-                  id={idx}
+                  key={idx}
                   className="w-100 d-block"
                   src={`images/openmic/${idx + 1}.webp`}
                 />
@@ -50,7 +50,7 @@ function RAAGA() {
             return (
               <Carousel.Item>
                 <Image
-                  id={idx}
+                  key={idx}
                   className="w-100 d-block"
                   src={`images/RAAGA/${idx + 1}.webp`}
                 />
@@ -85,7 +85,7 @@ function Jam() {
             return (
               <Carousel.Item>
                 <Image
-                  id={idx}
+                  key={idx}
                   className="w-100 d-block"
                   src={`images/jam/${idx + 1}.webp`}
                 />
@@ -120,7 +120,7 @@ function GetToKnow() {
             return (
               <Carousel.Item>
                 <Image
-                  id={idx}
+                  key={idx}
                   className="w-100 d-block"
                   src={`images/gettoknow/${idx + 1}.webp`}
                 />
