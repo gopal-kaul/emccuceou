@@ -16,7 +16,7 @@ export default function SpotlightSingers() {
               <Image
                 variant="top"
                 className="img-shadow index-photo"
-                src="images/singers/surabhi.jpg"
+                src="images/singers/surabhi.webp"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -77,7 +77,7 @@ export default function SpotlightSingers() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/singers/abhinav.jpg"
+                src="images/singers/abhinav.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -120,7 +120,7 @@ export default function SpotlightSingers() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/niharika.jpg"
+                src="images/niharika.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -164,7 +164,7 @@ export default function SpotlightSingers() {
               <Image
                 variant="top"
                 className="img-shadow index-photo"
-                src="images/shiney.jpg"
+                src="images/shiney.webp"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -205,7 +205,7 @@ export default function SpotlightSingers() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/singers/kiran.jpg"
+                src="images/singers/kiran.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -259,7 +259,7 @@ export default function SpotlightSingers() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/singers/keerthana.jpg"
+                src="images/singers/keerthana.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -299,7 +299,7 @@ export default function SpotlightSingers() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/singers/pratik.jpg"
+                src="images/singers/pratik.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -333,7 +333,7 @@ export default function SpotlightSingers() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/singers/shishira.jpg"
+                src="images/singers/shishira.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}

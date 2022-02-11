@@ -30,7 +30,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/president.jpeg"
+                      src="images/president.webp"
                       className="img-shadow"
                       alt="president"
                       width={"70%"}
@@ -65,7 +65,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/niharika.jpg"
+                      src="images/niharika.webp"
                       className="img-shadow"
                       alt="secretary"
                       width={"70%"}
@@ -99,7 +99,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/shiney.jpg"
+                      src="images/shiney.webp"
                       className="img-shadow"
                       alt="vice president"
                       width={"70%"}
@@ -135,7 +135,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/supriya.jpg"
+                      src="images/supriya.webp"
                       className="img-shadow"
                       alt="cultural head"
                       width={"70%"}
@@ -168,7 +168,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/aniral.jpg"
+                      src="images/aniral.webp"
                       className="img-shadow"
                       alt="band leader"
                       width={"70%"}
@@ -204,7 +204,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/manaswini.jpg"
+                      src="images/manaswini.webp"
                       className="img-shadow"
                       alt="treasurer"
                       width={"70%"}
@@ -241,7 +241,7 @@ export default function Committee() {
                   >
                     <Image
                       className="img-shadow"
-                      src="images/hasitha.jpg"
+                      src="images/hasitha.webp"
                       alt="immediate past president"
                       width={"70%"}
                       height={"70%"}
@@ -282,7 +282,7 @@ export default function Committee() {
                   >
                     <Image
                       className="img-shadow"
-                      src="images/abdul.jpeg"
+                      src="images/abdul.webp"
                       alt="promotions"
                       width={"70%"}
                       height={"70%"}
@@ -317,7 +317,7 @@ export default function Committee() {
                   >
                     <Image
                       className="img-shadow"
-                      src="images/hussain.jpg"
+                      src="images/hussain.webp"
                       alt="graphic designer"
                       width={"70%"}
                       height={"70%"}
@@ -353,7 +353,7 @@ export default function Committee() {
                   >
                     <Image
                       className="img-shadow"
-                      src="images/kranthi.jpg"
+                      src="images/kranthi.webp"
                       alt="assistant band leader"
                       width={"70%"}
                       height={"70%"}
@@ -389,7 +389,7 @@ export default function Committee() {
                   >
                     <Image
                       className="img-shadow"
-                      src="images/abhinava.jpg"
+                      src="images/abhinava.webp"
                       alt="joint treasurer"
                       width={"70%"}
                       height={"70%"}
@@ -423,7 +423,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/keerthana.jpg"
+                      src="images/keerthana.webp"
                       className="img-shadow"
                       alt="joint cultural head"
                       width={"70%"}
@@ -458,7 +458,7 @@ export default function Committee() {
                   >
                     <Image
                       className="img-shadow"
-                      src="images/lahari.jpg"
+                      src="images/lahari.webp"
                       alt="content writer"
                       width={"70%"}
                       height={"70%"}
@@ -491,7 +491,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/rohit.jpg"
+                      src="images/rohit.webp"
                       className="img-shadow"
                       alt="joint secretary "
                       width={"70%"}
@@ -528,7 +528,7 @@ export default function Committee() {
                     }}
                   >
                     <Image
-                      src="images/special/nathan.jpg"
+                      src="images/special/nathan.webp"
                       className="img-shadow"
                       alt="joint secretary "
                       width={"70%"}

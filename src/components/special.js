@@ -15,7 +15,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/prachotan.jpg"
+                src="images/special/prachotan.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -70,7 +70,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/sarthak.jpg"
+                src="images/special/sarthak.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -118,7 +118,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/sudhanshu.jpg"
+                src="images/special/sudhanshu.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -161,7 +161,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/vaishnavidanam.jpg"
+                src="images/special/vaishnavidanam.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -195,7 +195,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/nathan.jpg"
+                src="images/special/nathan.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -234,7 +234,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/akhila.jpg"
+                src="images/special/akhila.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}
@@ -284,7 +284,7 @@ export default function Specialmentions() {
             <Card style={{ margin: 5 }}>
               <Image
                 variant="top"
-                src="images/special/vaishnavigannoji.jpg"
+                src="images/special/vaishnavigannoji.webp"
                 className="img-shadow index-photo"
                 width={200}
                 height={200}

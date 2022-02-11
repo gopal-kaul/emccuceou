@@ -10,7 +10,7 @@ export default function MyNavbar() {
               <Image
                 width={45}
                 height={50}
-                src="/images/logo_white.png"
+                src="/images/logo_white.webp"
                 alt="EMC² Logo"
               />
             </Navbar.Brand>

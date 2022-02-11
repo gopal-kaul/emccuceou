@@ -7,13 +7,13 @@ export default function band() {
       <hr />
       <Carousel fade>
         <Carousel.Item>
-          <Image className="w-100" src={"images/openmic/11.jpg"} />
+          <Image className="w-100" src={"images/openmic/11.webp"} />
         </Carousel.Item>
         <Carousel.Item>
-          <Image className="w-100" src={"images/band/1.jpg"} />
+          <Image className="w-100" src={"images/band/1.webp"} />
         </Carousel.Item>
         <Carousel.Item>
-          <Image className="w-100" src={"images/band/2.jpg"} />
+          <Image className="w-100" src={"images/band/2.webp"} />
         </Carousel.Item>
       </Carousel>
       <p style={{ marginTop: "2%" }}>

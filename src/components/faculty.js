@@ -9,7 +9,7 @@ export default function Faculty() {
           style={{ display: "flex", justifyContent: "center", marginTop: "5%" }}
         >
           <Image
-            src="images/faculty.jpeg"
+            src="images/faculty.webp"
             className="person-image img-shadow"
             roundedCircle
             fluid

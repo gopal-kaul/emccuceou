@@ -13,7 +13,7 @@ function OpenMic() {
                 <Image
                   id={idx}
                   className="w-100 d-block"
-                  src={`images/openmic/${idx + 1}.jpg`}
+                  src={`images/openmic/${idx + 1}.webp`}
                 />
               </Carousel.Item>
             );
@@ -52,7 +52,7 @@ function RAAGA() {
                 <Image
                   id={idx}
                   className="w-100 d-block"
-                  src={`images/RAAGA/${idx + 1}.jpg`}
+                  src={`images/RAAGA/${idx + 1}.webp`}
                 />
               </Carousel.Item>
             );
@@ -87,7 +87,7 @@ function Jam() {
                 <Image
                   id={idx}
                   className="w-100 d-block"
-                  src={`images/jam/${idx + 1}.jpg`}
+                  src={`images/jam/${idx + 1}.webp`}
                 />
               </Carousel.Item>
             );
@@ -122,7 +122,7 @@ function GetToKnow() {
                 <Image
                   id={idx}
                   className="w-100 d-block"
-                  src={`images/gettoknow/${idx + 1}.png`}
+                  src={`images/gettoknow/${idx + 1}.webp`}
                 />
               </Carousel.Item>
             );

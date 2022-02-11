@@ -6,7 +6,7 @@ export default function IndexPage() {
     <>
       <Image
         className="d-block w-100"
-        src="/images/emcc-back.png"
+        src="/images/emcc-back.webp"
         alt="First slide"
       />
       <Container style={{ marginTop: "3%", marginBottom: "5%" }}>
@@ -16,9 +16,9 @@ export default function IndexPage() {
           <br />
           <br />
           <p style={{ fontSize: "1.5rem" }}>
-            Engineers’ Music and Cultural Club or as we would like to call EMC²,
-            is Osmania University College of Engineering’s first and largest
-            official non-technical club, established in July 2018.
+            Engineers’ Music and Cultural Club or as we would like to call it
+            EMC², is Osmania University College of Engineering’s first and
+            largest official non-technical club, established in July 2018.
           </p>
           <hr />
         </div>
@@ -32,7 +32,7 @@ export default function IndexPage() {
                 <Image
                   className="img-shadow index-photo"
                   style={{ padding: "5px" }}
-                  src="images/faculty.jpeg"
+                  src="images/faculty.webp"
                   alt="Faculty"
                   width={200}
                   height={200}
@@ -52,7 +52,7 @@ export default function IndexPage() {
               >
                 <Image
                   className="img-shadow index-photo"
-                  src="images/president.jpeg"
+                  src="images/president.webp"
                   alt="president"
                   width={200}
                   height={200}

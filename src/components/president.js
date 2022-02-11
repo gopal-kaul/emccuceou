@@ -8,7 +8,7 @@ export default function President() {
         style={{ display: "flex", justifyContent: "center", marginTop: "5%" }}
       >
         <Image
-          src="images/president.jpeg"
+          src="images/president.webp"
           className="person-image"
           roundedCircle
           fluid

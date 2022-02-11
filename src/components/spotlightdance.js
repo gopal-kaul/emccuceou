@@ -16,7 +16,7 @@ export default function SpotlightDangers() {
               <Image
                 variant="top"
                 className="img-shadow index-photo"
-                src="images/dancers/ruthvik.jpg"
+                src="images/dancers/ruthvik.webp"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -59,7 +59,7 @@ export default function SpotlightDangers() {
               <Image
                 variant="top"
                 className="img-shadow index-photo"
-                src="images/dancers/lohith.jpg"
+                src="images/dancers/lohith.webp"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -94,7 +94,7 @@ export default function SpotlightDangers() {
               <Image
                 variant="top"
                 className="img-shadow index-photo"
-                src="images/dancers/aniral.jpg"
+                src="images/dancers/aniral.webp"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
@@ -129,7 +129,7 @@ export default function SpotlightDangers() {
               <Image
                 variant="top"
                 className="img-shadow index-photo"
-                src="images/dancers/ragini.jpg"
+                src="images/dancers/ragini.webp"
                 width={200}
                 height={200}
                 style={{ marginTop: "2%", marginLeft: "2%" }}
