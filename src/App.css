@@ -129,3 +129,18 @@
 .linkreset:hover {
   color: inherit;
 }
+
+.hideevent {
+  transition: opacity 1s linear;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+}
+
+.showevent {
+  transition: opacity 1s linear;
+  position: static;
+  opacity: 1;
+}
