@@ -191,7 +191,7 @@ export default function Events() {
         animationIn="zoomIn"
         animationOut="zoomOut"
         isVisible={select === "openmic" ? true : false}
-        style={{ display: select !== "openmic" && "none" }}
+        className={`${select === "openmic" ? "showevent" : "hideevent"}`}
       >
         <OpenMic />
       </Animated>
@@ -199,7 +199,7 @@ export default function Events() {
         animationIn="zoomIn"
         animationOut="zoomOut"
         isVisible={select === "raaga" ? true : false}
-        style={{ display: select !== "raaga" && "none" }}
+        className={`${select === "raaga" ? "showevent" : "hideevent"}`}
       >
         <RAAGA />
       </Animated>
@@ -207,7 +207,7 @@ export default function Events() {
         animationIn="zoomIn"
         animationOut="zoomOut"
         isVisible={select === "gettoknow" ? true : false}
-        style={{ display: select !== "gettoknow" && "none" }}
+        className={`${select === "gettoknow" ? "showevent" : "hideevent"}`}
       >
         <GetToKnow />
       </Animated>
@@ -215,7 +215,7 @@ export default function Events() {
         animationIn="zoomIn"
         animationOut="zoomOut"
         isVisible={select === "jam" ? true : false}
-        style={{ display: select !== "jam" && "none" }}
+        className={`${select === "jam" ? "showevent" : "hideevent"}`}
       >
         <Jam />
       </Animated>
