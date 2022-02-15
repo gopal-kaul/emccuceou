@@ -11,7 +11,9 @@ export default function IndexPage() {
       />
       <Container style={{ marginTop: "3%", marginBottom: "5%" }}>
         <div style={{ textAlign: "center" }}>
-          <h2>Engineers' Music and Cultural Club</h2>
+          <h2>
+            <strong>Engineers' Music and Cultural Club</strong>
+          </h2>
           <i>Osmania University's Music Club!</i>
           <br />
           <br />
@@ -40,7 +42,7 @@ export default function IndexPage() {
                   fluid
                 />
                 <h3>Message from the Faculty Advisor</h3>
-                <em>Dr. V. Uma Maheshwar</em>
+                <i style={{ fontSize: "1.25rem" }}>Dr. V. Uma Maheshwar</i>
               </Link>
             </div>
           </Col>
@@ -60,13 +62,15 @@ export default function IndexPage() {
                   fluid
                 />
                 <h3>Message from the President</h3>
-                <em>Gopal Kaul</em>
+                <i style={{ fontSize: "1.25rem" }}>Gopal Kaul</i>
               </Link>
             </div>
           </Col>
         </Row>
-        <hr />
-        <h3 style={{ textAlign: "center" }}>Quick Links</h3>
+        {/* <hr />
+        <h3 style={{ textAlign: "center" }}>
+          <strong>Quick Links</strong>
+        </h3>
         <Row xs={1} md={2} lg={2}>
           <Col style={{ marginTop: "2.5%" }}>
             <div className="indexwrapper linkborder">
@@ -96,7 +100,7 @@ export default function IndexPage() {
               </Link>
             </div>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </>
   );

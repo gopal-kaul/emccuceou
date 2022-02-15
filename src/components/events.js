@@ -20,7 +20,9 @@ function OpenMic() {
           })}
         </Carousel>
         <Card.Body>
-          <Card.Title style={{ fontSize: "25px" }}>Open Mic</Card.Title>
+          <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+            Open Mic
+          </Card.Title>
           <Card.Text>
             There are days when you just want to perform rather than compete.
             You simply want everyone to listen to your music or admire your
@@ -59,7 +61,9 @@ function RAAGA() {
           })}
         </Carousel>
         <Card.Body>
-          <Card.Title style={{ fontSize: "25px" }}>RAAGA</Card.Title>
+          <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+            RAAGA
+          </Card.Title>
           <Card.Text>
             RAAGA is an annual competition conducted by EMC² to promote upcoming
             singers in the University. It is a competition where singers from
@@ -94,7 +98,9 @@ function Jam() {
           })}
         </Carousel>
         <Card.Body>
-          <Card.Title style={{ fontSize: "25px" }}>Jam Session</Card.Title>
+          <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+            Jam Session
+          </Card.Title>
           <Card.Text>
             Who doesn't enjoy an evening full of music, jamming to songs,
             meeting new people! Isn't it what a melophile craves for?Ever desire
@@ -129,7 +135,9 @@ function GetToKnow() {
           })}
         </Carousel>
         <Card.Body>
-          <Card.Title style={{ fontSize: "25px" }}>Get to know EMC²</Card.Title>
+          <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+            Get to know EMC²
+          </Card.Title>
           <Card.Text>
             Get to know EMC² is an event conducted to introduce the club to all
             the first years. Many students who are new to college wouldn’t know
@@ -150,7 +158,9 @@ export default function Events() {
     <Container
       style={{ marginTop: "2%", marginBottom: "2%", scrollBehavior: "smooth" }}
     >
-      <h1>Events Page</h1>
+      <h1>
+        <strong>Events Page</strong>
+      </h1>
       <hr />
       <p style={{ fontSize: "1.5rem" }}>
         These are a few memories from our college events!

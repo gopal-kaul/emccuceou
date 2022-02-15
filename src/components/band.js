@@ -3,7 +3,9 @@ import { Container, Image, Carousel } from "react-bootstrap";
 export default function band() {
   return (
     <Container style={{ marginTop: "2%", marginBottom: "5%" }}>
-      <h1>The Jesters</h1>
+      <h1>
+        <strong>The Jesters</strong>
+      </h1>
       <hr />
       <Carousel fade>
         <Carousel.Item>

@@ -7,7 +7,9 @@ export default function Contact() {
       <div style={{ marginTop: "5%", marginBottom: "5%" }}>
         <Row>
           <Col lg={5} mb={4}>
-            <h2>Contact Us:</h2>
+            <h2>
+              <strong>Contact Us</strong>
+            </h2>
             Mr. Gopal Kaul
             <br />
             <div>

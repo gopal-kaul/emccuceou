@@ -3,7 +3,14 @@ import { LinkContainer } from "react-router-bootstrap";
 export default function MyNavbar() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className="mynav" variant="dark">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="mynav"
+        variant="dark"
+        fixed={"top"}
+        className={"position-sticky ps-0"}
+      >
         <Container fluid>
           <LinkContainer to={"/"}>
             <Navbar.Brand>

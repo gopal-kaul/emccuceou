@@ -3,7 +3,9 @@ import { Card, Image, Container, Row, Col } from "react-bootstrap";
 export default function SpotlightSingers() {
   return (
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
-      <h1>Spotlight (Singers)</h1>
+      <h1>
+        <strong>Spotlight (Singers)</strong>
+      </h1>
       <hr />
       <p style={{ fontSize: "1.25rem" }}>
         Here are a few famous singers to keep an eye out for in college events
@@ -24,7 +26,7 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Surabhi Nadigotti
                 </Card.Title>
                 <Card.Text>
@@ -86,7 +88,7 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Abhinava Karthikeya
                 </Card.Title>
                 <Card.Text>
@@ -129,7 +131,7 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Niharika Musuku
                 </Card.Title>
                 <Card.Text>
@@ -172,7 +174,7 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Shiney Sadanand
                 </Card.Title>
                 <Card.Text>
@@ -214,7 +216,7 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Kiran Ganji
                 </Card.Title>
                 <Card.Text>
@@ -268,7 +270,7 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Keerthana Reddy
                 </Card.Title>
                 <Card.Text>
@@ -308,7 +310,9 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>Pratik</Card.Title>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+                  Pratik
+                </Card.Title>
                 <Card.Text>
                   My mom made me join a guitar class for a few months but I
                   learnt most of it in 2020 lockdown My favourite artists are
@@ -342,7 +346,9 @@ export default function SpotlightSingers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>Shishira</Card.Title>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+                  Shishira
+                </Card.Title>
                 <Card.Text>
                   Hey...! I am Shishira. Here is a short glimpse of my music
                   journey. I initiated my musical journey from an early age of

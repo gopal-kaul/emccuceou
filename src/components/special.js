@@ -3,7 +3,9 @@ import { Card, Image, Container, Row, Col } from "react-bootstrap";
 export default function Specialmentions() {
   return (
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
-      <h1>Special Mentions Page</h1>
+      <h1>
+        <strong>Special Mentions Page</strong>
+      </h1>
       <hr />
       <p style={{ fontSize: "1.25rem" }}>
         These are some of the club's notable alumni who have carved a name for
@@ -24,7 +26,7 @@ export default function Specialmentions() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   D L Prachotan
                 </Card.Title>
                 <Card.Text>
@@ -79,7 +81,7 @@ export default function Specialmentions() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   A S Sarthak
                 </Card.Title>
                 <Card.Text>
@@ -127,7 +129,7 @@ export default function Specialmentions() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   M V Sudhanshu
                 </Card.Title>
                 <Card.Text>
@@ -170,7 +172,7 @@ export default function Specialmentions() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Vaishnavi Danam
                 </Card.Title>
                 <Card.Text>
@@ -204,7 +206,7 @@ export default function Specialmentions() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Nathan Arul Thadmalla
                 </Card.Title>
                 <Card.Text>
@@ -243,7 +245,7 @@ export default function Specialmentions() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Akhila Munnaluru
                 </Card.Title>
                 <Card.Text>
@@ -293,7 +295,7 @@ export default function Specialmentions() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Vaishnavi Gannoji
                 </Card.Title>
                 <Card.Text>

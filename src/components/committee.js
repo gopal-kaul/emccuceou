@@ -13,7 +13,9 @@ export default function Committee() {
         <div
           style={{ marginTop: "5%", marginBottom: "5%", textAlign: "center" }}
         >
-          <h2>EMC² Core Committee</h2>
+          <h2>
+            <strong>EMC² Core Committee</strong>
+          </h2>
           <hr />
           <Row xs={2} md={4} lg={4}>
             <Col>
@@ -264,7 +266,9 @@ export default function Committee() {
           <br />
           <br />
           <br />
-          <h2>EMC² Executive Committee</h2>
+          <h2>
+            <strong>EMC² Executive Committee</strong>
+          </h2>
           <hr />
           <Row xs={2} md={4} lg={4}>
             <Col>

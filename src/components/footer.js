@@ -2,9 +2,8 @@ import { Instagram, Facebook, Youtube } from "react-bootstrap-icons";
 export default function Footer() {
   return (
     <footer
-      className="text-center"
+      className="text-center myfooter"
       style={{
-        backgroundColor: "#292b2c",
         color: "#ffffff",
         marginBottom: "-1%",
         paddingBottom: "0.5%",

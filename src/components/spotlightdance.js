@@ -3,7 +3,9 @@ import { Card, Image, Container, Row, Col } from "react-bootstrap";
 export default function SpotlightDangers() {
   return (
     <Container style={{ marginTop: "2%", marginBottom: "2%" }}>
-      <h1>Spotlight (Dancers)</h1>
+      <h1>
+        <strong>Spotlight (Dancers)</strong>
+      </h1>
       <hr />
       <p style={{ fontSize: "1.25rem" }}>
         Here are a few famous dancers to keep an eye out for in college events
@@ -24,7 +26,9 @@ export default function SpotlightDangers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>Ruthvik H</Card.Title>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+                  Ruthvik H
+                </Card.Title>
                 <Card.Text>
                   The first time I ever performed on stage was for a girl, SV,
                   that's what I used to call her.She was in 9th standard while I
@@ -67,7 +71,9 @@ export default function SpotlightDangers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>Lohith</Card.Title>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+                  Lohith
+                </Card.Title>
                 <Card.Text>
                   I was in my 1st grade when my teacher made me stand in the
                   first row to dance for the annual day, and I had no idea if I
@@ -102,7 +108,9 @@ export default function SpotlightDangers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>Aniral Rao</Card.Title>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
+                  Aniral Rao
+                </Card.Title>
                 <Card.Text>
                   I started my engineering dance journey in the Induction
                   program, and continued to dance for almost all the events in
@@ -137,7 +145,7 @@ export default function SpotlightDangers() {
                 fluid
               />
               <Card.Body>
-                <Card.Title style={{ fontSize: "25px" }}>
+                <Card.Title style={{ fontSize: "25px", fontWeight: "bold" }}>
                   Ragini Kaul
                 </Card.Title>
                 <Card.Text>
