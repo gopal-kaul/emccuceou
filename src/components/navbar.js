@@ -6,10 +6,9 @@ export default function MyNavbar() {
       <Navbar
         collapseOnSelect
         expand="lg"
-        className="mynav"
         variant="dark"
         fixed={"top"}
-        className={"position-sticky ps-0"}
+        className={"position-sticky mynav ps-0"}
       >
         <Container fluid>
           <LinkContainer to={"/"}>
