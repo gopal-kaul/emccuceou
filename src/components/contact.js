@@ -1,5 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { Instagram } from "react-bootstrap-icons";
+import { Container, Row, Col, Ratio } from "react-bootstrap";
 
 export default function Contact() {
   return (
@@ -10,34 +9,25 @@ export default function Contact() {
             <h2>
               <strong>Contact Us</strong>
             </h2>
-            Mr. Gopal Kaul
+            <h5>
+              <strong>Mr. Gopal Kaul</strong>
+            </h5>
+            President, EMC²
             <br />
-            <div>
-              President, EMC²
-              <br />
-            </div>
-            <div>
-              +91 8074205633
-              <br />
-            </div>
+            +91 8074205633
+            <br />
             music.uceou@gmail.com
             <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#000000", textDecoration: "none" }}
-              href="https://www.instagram.com/emccuceou/"
-            >
-              <Instagram size={"2rem"} /> Our Instagram
-            </a>
           </Col>
           <Col lg={7}>
-            <iframe
-              title="Maps Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.116329436644!2d78.51728491487663!3d17.406204088067316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb992a61089b8b%3A0x6860898df38073c0!2sEngineers&#39;%20Music%20and%20Cultural%20Club!5e0!3m2!1sen!2sin!4v1584853736672!5m2!1sen!2sin"
-              width="600"
-              height="400"
-            ></iframe>
+            <div style={{}}></div>
+            <br />
+            <Ratio aspectRatio="1x1">
+              <iframe
+                title="Maps Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.116329436644!2d78.51728491487663!3d17.406204088067316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb992a61089b8b%3A0x6860898df38073c0!2sEngineers&#39;%20Music%20and%20Cultural%20Club!5e0!3m2!1sen!2sin!4v1584853736672!5m2!1sen!2sin"
+              />
+            </Ratio>
           </Col>
         </Row>
       </div>
