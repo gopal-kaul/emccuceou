@@ -20,7 +20,6 @@ export default function Contact() {
             <br />
           </Col>
           <Col lg={7}>
-            <div style={{}}></div>
             <br />
             <Ratio aspectRatio="1x1">
               <iframe
