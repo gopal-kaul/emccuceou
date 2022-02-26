@@ -45,8 +45,8 @@ export default function Committee() {
                 </div>
                 {text === "gopal" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -81,8 +81,8 @@ export default function Committee() {
                 </div>
                 {text === "niharika" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -115,8 +115,8 @@ export default function Committee() {
                 </div>
                 {text === "shiney" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -150,8 +150,8 @@ export default function Committee() {
                 </div>
                 {text === "supriya" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -184,8 +184,8 @@ export default function Committee() {
                 </div>
                 {text === "aniral" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -220,8 +220,8 @@ export default function Committee() {
                 </div>
                 {text === "manaswini" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -255,8 +255,8 @@ export default function Committee() {
                   <h5 className="role">Immediate Past President</h5>
                   {text === "hasitha" && (
                     <p className="committee-desc">
-                      This is how it'll look if I enter just one or two lines of
-                      text. I think this fine, not excessive, right?
+{/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                     </p>
                   )}
                 </div>
@@ -298,8 +298,8 @@ export default function Committee() {
                 </div>
                 {text === "abdul" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -334,8 +334,8 @@ export default function Committee() {
                 </div>
                 {text === "hussain" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -370,8 +370,8 @@ export default function Committee() {
                 </div>
                 {text === "kranthi" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -405,8 +405,8 @@ export default function Committee() {
                 </div>
                 {text === "abhinava" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -441,8 +441,8 @@ export default function Committee() {
                 </div>
                 {text === "keerthana" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -475,8 +475,8 @@ export default function Committee() {
                 </div>
                 {text === "lahari" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -509,8 +509,8 @@ export default function Committee() {
                 </div>
                 {text === "rohit" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
@@ -546,8 +546,8 @@ export default function Committee() {
                 </div>
                 {text === "nathan" && (
                   <p className="committee-desc">
-                    This is how it'll look if I enter just one or two lines of
-                    text. I think this fine, not excessive, right?
+                    {/*                     This is how it'll look if I enter just one or two lines of
+                    text. I think this fine, not excessive, right? */}
                   </p>
                 )}
               </div>
