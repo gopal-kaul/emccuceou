@@ -10,7 +10,6 @@ export default function Footer() {
           paddingTop: "2%",
         }}
       >
-        <p>
           <strong>EMC²</strong>
           <br />{" "}
           <i>
@@ -41,7 +40,7 @@ export default function Footer() {
                 target="_blank"
                 href="https://www.instagram.com/emccuceou/"
               >
-                <Instagram size={"1.3rem"} />
+                <Instagram size={20} />
               </a>
               <a
                 style={{ color: "#FFFFFF", textDecoration: "none" }}
@@ -49,7 +48,7 @@ export default function Footer() {
                 target="_blank"
                 href="https://www.youtube.com/channel/UC78GI0nIAsYtbUix2_QbN7Q"
               >
-                <Youtube size={"1.3rem"} />
+                <Youtube size={20} />
               </a>
               <a
                 style={{ color: "#FFFFFF", textDecoration: "none" }}
@@ -57,7 +56,7 @@ export default function Footer() {
                 target="_blank"
                 href="https://www.facebook.com/emccuceou/"
               >
-                <Facebook size={"1.3rem"} />
+                <Facebook size={20} />
               </a>
               <a
                 style={{ color: "#FFFFFF", textDecoration: "none" }}
@@ -65,11 +64,10 @@ export default function Footer() {
                 target="_blank"
                 href="https://twitter.com/emccuceou"
               >
-                <Twitter size={"1.3rem"} />
+                <Twitter size={20} />
               </a>
             </div>
           </div>
-        </p>
       </footer>
       <div
         className="myfooter"

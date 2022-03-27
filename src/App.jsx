@@ -15,7 +15,6 @@ import PastCommittee from "./components/pastcommittee";
 import SpotlightSingers from "./components/spotlightsingers";
 import SpotlightDangers from "./components/spotlightdance";
 import Aboutus from "./components/aboutus";
-
 function App() {
   return (
     <BrowserRouter>
