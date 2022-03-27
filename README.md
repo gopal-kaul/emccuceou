@@ -2,7 +2,8 @@
 
 ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=emccuceou&logo=false)
 ![GitHub Repo stars](https://img.shields.io/github/stars/gopal-kaul/emccuceou?style=social)  
-This is the Repository for EMC² UCEOU Website. CI/CD is set up with Vercel.
+This is the Repository for EMC² UCEOU Website. CI/CD is set up with Vercel.  
+It uses Vite for build, as Vite is lightning fast to use while setup and building, and it also supports HMR(Hot Module Reload).
 
 [EMC² UCEOU](https://emccuceou.vercel.app/)
 
