@@ -121,7 +121,7 @@ export default function Committee() {
             ? core.map((person, idx) => {
                 if (idx < 7)
                   return (
-                    <div className="mycont" key={idx}>
+                    <div className="mycont" key={person}>
                       <button
                         className="committee-btn"
                         onClick={() => setText(person.name)}
@@ -158,8 +158,8 @@ export default function Committee() {
               })
             : core
                 .filter((person) => person.name === text)
-                .map((person, idx) => (
-                  <div className="mycont" key={idx}>
+                .map((person) => (
+                  <div className="comm-single" key={person}>
                     <button
                       className="committee-btn"
                       onClick={() => setText("")}
@@ -201,7 +201,7 @@ export default function Committee() {
                       .filter((person) => person.name !== text)
                       .map((person, idx) => (
                         <button
-                          key={idx}
+                          key={person}
                           className="committee-btn"
                           onClick={() => setText(person.name)}
                         >
@@ -229,8 +229,8 @@ export default function Committee() {
         </h2>
         <div className="row">
           {text === ""
-            ? exec.map((person, idx) => (
-                <div className="mycont hideall" key={idx}>
+            ? exec.map((person) => (
+                <div className="mycont" key={person}>
                   <button
                     className="committee-btn"
                     onClick={() => setText(person.name)}
@@ -255,8 +255,8 @@ export default function Committee() {
               ))
             : exec
                 .filter((person) => person.name === text)
-                .map((person, idx) => (
-                  <div className="mycont" key={idx}>
+                .map((person) => (
+                  <div className="mycont" key={person}>
                     <button className="committee-btn">
                       <Image
                         className="img-shadow"
@@ -293,7 +293,7 @@ export default function Committee() {
                       .filter((person) => person.name !== text)
                       .map((person, idx) => (
                         <button
-                          key={idx}
+                          key={person}
                           className="committee-btn"
                           onClick={() => setText(person.name)}
                         >
