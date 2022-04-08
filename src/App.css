@@ -16,6 +16,15 @@
   margin-bottom: 4%;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .row {
   display: flex;
   flex-flow: row wrap;
@@ -28,7 +37,25 @@
   margin-top: 4%;
   margin-bottom: 4%;
   padding: 1%;
+  animation: fadeIn 1s;
 }
+
+@keyframes comm-single {
+  0% {
+    opacity: 1;
+  }
+  0.1% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.comm-single {
+  animation: comm-single 1s;
+}
+
 @media screen and (max-width: 992px) {
   .mycont {
     flex: 50%;
