@@ -22,21 +22,21 @@ export default function band() {
         <strong>THE JESTERS</strong> is the band of EMC². They have performed on
         multiple occasions and in various institutions. <br />
         Some of their recent performances are:
-        <ul>
-          <li>Amusant 2k19 </li>
-          <li>Global Alumni Meet 2019</li>
-          <li>Farewell of former vice chancellor </li>
-          <li>National Institute of Fashion Technology </li>
-          <li>Mahindra Ecole Centrale</li>
-        </ul>
-        The current members are:
-        <ul>
-          <li>Nathan Thadmalla</li>
-          <li>Gopal Kaul</li>
-          <li>Aniral Rao</li>
-          <li>Kranthi Kiran</li>
-        </ul>
       </p>
+      <ul>
+        <li>Amusant 2k19 </li>
+        <li>Global Alumni Meet 2019</li>
+        <li>Farewell of former vice chancellor </li>
+        <li>National Institute of Fashion Technology </li>
+        <li>Mahindra Ecole Centrale</li>
+      </ul>
+      <p> The current members are:</p>
+      <ul>
+        <li>Nathan Thadmalla</li>
+        <li>Gopal Kaul</li>
+        <li>Aniral Rao</li>
+        <li>Kranthi Kiran</li>
+      </ul>
     </Container>
   );
 }
