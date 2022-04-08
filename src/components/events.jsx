@@ -6,7 +6,7 @@ function OpenMic() {
   return (
     <>
       <Card style={{ marginTop: "3%" }}>
-        <Carousel fade>
+        <Carousel slide>
           {[...Array(14)].map((item, idx) => {
             return (
               <Carousel.Item>
@@ -47,7 +47,7 @@ function RAAGA() {
   return (
     <>
       <Card style={{ marginTop: "3%" }}>
-        <Carousel fade>
+        <Carousel slide>
           {[...Array(17)].map((item, idx) => {
             return (
               <Carousel.Item>
@@ -84,7 +84,7 @@ function Jam() {
   return (
     <>
       <Card style={{ marginTop: "3%" }}>
-        <Carousel fade>
+        <Carousel slide>
           {[...Array(2)].map((item, idx) => {
             return (
               <Carousel.Item>
@@ -121,7 +121,7 @@ function GetToKnow() {
   return (
     <>
       <Card style={{ marginTop: "3%" }}>
-        <Carousel fade>
+        <Carousel slide>
           {[...Array(3)].map((item, idx) => {
             return (
               <Carousel.Item>
