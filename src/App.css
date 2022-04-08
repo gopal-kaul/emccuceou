@@ -201,6 +201,7 @@ h6,
 .members-content {
   flex: 50%;
   align-self: flex-start;
+  animation: fadeIn 1s;
 }
 
 @media screen and (max-width: 992px) {
