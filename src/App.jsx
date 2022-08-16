@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyNavbar from "./components/navbar";
 import IndexPage from "./components/index";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import President from "./components/president";
 import Faculty from "./components/faculty";
 import Footer from "./components/footer";
@@ -17,7 +17,7 @@ import SpotlightDangers from "./components/spotlightdance";
 import Aboutus from "./components/aboutus";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <MyNavbar />
       <Routes>
         <Route path="/" element={<IndexPage />} />
@@ -34,7 +34,7 @@ function App() {
         <Route path="aboutus" element={<Aboutus />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
