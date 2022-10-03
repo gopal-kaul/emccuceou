@@ -5,6 +5,12 @@
 This is the Repository for EMC² UCEOU Website. CI/CD is set up with Vercel.  
 It uses Vite for build, as Vite is lightning fast to use while setup and building, and it also supports HMR(Hot Module Reload).
 
+The 'public' folder contains static files for all the images being featured on the website in the form of webp files.
+
+The 'src' folder contains the jsx files for the pages on the website, aptly named according to each webpage.
+
+The remaining files are simply listed as is.
+
 [EMC² UCEOU](https://emccuceou.vercel.app/)
 
 ## Contributors-
