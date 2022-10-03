@@ -19,3 +19,5 @@ Here are some people who helped out in the UI and/or other stuff.
 - [Vijay Peri](https://github.com/Vijayperi)
 - [Hemanth Rao](https://github.com/HemanthRa0)
 - [Yashomathi Batkeeri](https://www.linkedin.com/in/yashomathi-batkeeri-746ab321b/)
+
+### Repository no longer in active development!
